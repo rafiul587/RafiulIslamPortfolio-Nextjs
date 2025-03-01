@@ -4,7 +4,7 @@
     "name": "404 page design",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/cb8x8Rt/project1.jpg",
-    "imageSrc": ["https://i.ibb.co/nMPGhDS/project1.png"],
+    "imageSrc": "https://i.ibb.co/nMPGhDS/project1.png",
     "link": "https://t404nf.netlify.app/",
     "source": "https://github.com/TahirAhmad01/404_page_design"
   },
@@ -13,25 +13,26 @@
     "name": "A hot tea cup",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/PCyTM8V/project2.jpg",
-    "imageSrc": ["https://i.ibb.co/Bqd0R12/project2.png"],
+    "imageSrc": "https://i.ibb.co/Bqd0R12/project2.png",
     "link": "https://tahirahmad01.github.io/A-hot-tea-cup/",
     "source": "https://github.com/TahirAhmad01/A-hot-tea-cup"
   },
   {
     "id": 3,
-    "name": "Golden",
-    "category": ["html", "css", "javascript", "jquery"],
-    "placeholderSrc": "https://i.ibb.co/jz0XyCz/project3.jpg",
-    "imageSrc": ["https://i.ibb.co/mH7NwGG/project3.png"],
-    "link": "https://golden-smoky.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/Golden"
+    "name": "PlayQue",
+    "description":"PlayQue - Track Playlists is a productivity app to track your long list of favorite playlists. Do you face the same problem that you get motivated to watch/complete an educational/tech playlist but after watching a few videos you completely forget about the playlist? Here comes the PlayQue - Playlist Tracker where you can add your favorite playlist and track how many videos you have completed, add a reminder notification for every day or custom days. You can either copy a playlist and paste the URL into the app to add a playlist or you can directly search and add any playlist from any channel from the search option in the app",
+    "category": ["kotlin", "jetpack-compose", "retrofit", "hilt", "coroutine", "paging"],
+    "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
+    "imageSrc": "https://i.ibb.co/P9FVbcT/playque-productivity-app.png",
+    "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
+    "source": "https://github.com/rafiul587/PlayQue"
   },
   {
     "id": 4,
     "name": "Music player by javascript",
     "category": ["html", "css", "javascript", "jquery"],
     "placeholderSrc": "https://i.ibb.co/mXtHmKS/project4.jpg",
-    "imageSrc": ["https://i.ibb.co/ftBzYPp/project4.png"],
+    "imageSrc": "https://i.ibb.co/ftBzYPp/project4.png",
     "link": "https://musicplayer-psi.vercel.app/",
     "source": "https://github.com/TahirAhmad01/Music-player-by-javascript"
   },
@@ -40,7 +41,7 @@
     "name": "Portfolio",
     "category": ["html", "css", "javascript", "jquery"],
     "placeholderSrc": "https://i.ibb.co/6gtN50k/project5.jpg",
-    "imageSrc": ["https://i.ibb.co/ZdHkwqj/project5.png"],
+    "imageSrc": "https://i.ibb.co/ZdHkwqj/project5.png",
     "link": "https://portfolio-tahirahmad01.vercel.app",
     "source": "https://github.com/TahirAhmad01/Portfolio"
   },
@@ -49,7 +50,7 @@
     "name": "Custom select by html",
     "category": ["html", "css", "javascript"],
     "placeholderSrc": "https://i.ibb.co/HDfSCV4/project6.jpg",
-    "imageSrc": ["https://i.ibb.co/x5q6yRn/project6.png"],
+    "imageSrc": "https://i.ibb.co/x5q6yRn/project6.png",
     "link": "https://tahirahmad01.github.io/Custom_select/",
     "source": "https://github.com/TahirAhmad01/Custom_select"
   },
@@ -58,7 +59,7 @@
     "name": "react quiz app",
     "category": ["html", "css", "react"],
     "placeholderSrc": "https://i.ibb.co/Rc5qs5b/project7.jpg",
-    "imageSrc": ["https://i.ibb.co/BL0LKWr/project7.png"],
+    "imageSrc": "https://i.ibb.co/BL0LKWr/project7.png",
     "link": "https://react-quiz-app-henna.vercel.app/",
     "source": "https://github.com/TahirAhmad01/react-quiz-app"
   },
@@ -67,7 +68,7 @@
     "name": "GetStarted Email template",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/M6RZYFN/project8.jpg",
-    "imageSrc": ["https://i.ibb.co/fMmP2Nm/project8.png"],
+    "imageSrc": "https://i.ibb.co/fMmP2Nm/project8.png",
     "link": "https://tahirahmad01.github.io/GetStarted_template/",
     "source": "https://github.com/TahirAhmad01/GetStarted_template"
   },
@@ -76,7 +77,7 @@
     "name": "ResetPass Email template",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/Y8jnGK2/project9.jpg",
-    "imageSrc": ["https://i.ibb.co/56xbcpz/project9.png"],
+    "imageSrc": "https://i.ibb.co/56xbcpz/project9.png",
     "link": "https://tahirahmad01.github.io/ResetPass_Email_template/",
     "source": "https://github.com/TahirAhmad01/ResetPass_Email_template"
   },
@@ -85,7 +86,7 @@
     "name": "welcome email template",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/mCyvGj0/project10.jpg",
-    "imageSrc": ["https://i.ibb.co/jHxdPGH/project10.png"],
+    "imageSrc": "https://i.ibb.co/jHxdPGH/project10.png",
     "link": "https://tahirahmad01.github.io/ResetPass_Email_template/",
     "source": "https://github.com/TahirAhmad01/ResetPass_Email_template"
   },
@@ -94,7 +95,7 @@
     "name": "Candle",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/k9SPbxj/project11.jpg",
-    "imageSrc": ["https://i.ibb.co/SvPDQDT/project11.png"],
+    "imageSrc": "https://i.ibb.co/SvPDQDT/project11.png",
     "link": "http://candle-olive.vercel.app/",
     "source": "https://github.com/TahirAhmad01/Candle"
   },
@@ -103,7 +104,7 @@
     "name": "Android_Css",
     "category": ["html", "css", "javascript", "jquery"],
     "placeholderSrc": "https://i.ibb.co/8PTQD67/project12.jpg",
-    "imageSrc": ["https://i.ibb.co/1mYmmH6/project12.png"],
+    "imageSrc": "https://i.ibb.co/1mYmmH6/project12.png",
     "link": "https://android-css.vercel.app/",
     "source": "https://github.com/TahirAhmad01/Android_Css"
   },
@@ -112,7 +113,7 @@
     "name": "MultiCounter Application by Redux",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/xCz4tRJ/project13.jpg",
-    "imageSrc": ["https://i.ibb.co/2KvDV2Y/project13.png"],
+    "imageSrc": "https://i.ibb.co/2KvDV2Y/project13.png",
     "link": "https://multi-counter-aplication-92ffhurcw-tahirahmad01.vercel.app/",
     "source": "https://github.com/TahirAhmad01/MultiCounterAplication"
   },
@@ -121,7 +122,7 @@
     "name": "shopping cart redux",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/S0dzfgn/project14.jpg",
-    "imageSrc": ["https://i.ibb.co/QD4ZfzH/project14.png"],
+    "imageSrc": "https://i.ibb.co/QD4ZfzH/project14.png",
     "link": "http://shopping-cart-redux-seven.vercel.app/",
     "source": "https://github.com/TahirAhmad01/shopping_cart_redux"
   },
@@ -130,7 +131,7 @@
     "name": "Todo App Redux",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/djPrbJw/project15.jpg",
-    "imageSrc": ["https://i.ibb.co/3spbwYZ/project15.png"],
+    "imageSrc": "https://i.ibb.co/3spbwYZ/project15.png",
     "link": "https://todo-app-redux-hazel.vercel.app/",
     "source": "https://github.com/TahirAhmad01/TodoAppRedux"
   },
@@ -139,7 +140,7 @@
     "name": "Blog Webpage Redux",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/LkRYJrH/project16.jpg",
-    "imageSrc": ["https://i.ibb.co/TqX8Hd5/project16.png"],
+    "imageSrc": "https://i.ibb.co/TqX8Hd5/project16.png",
     "link": "https://blog-webpage-redux.vercel.app/",
     "source": "https://github.com/TahirAhmad01/BlogWebpageRedux"
   },
@@ -148,7 +149,7 @@
     "name": "Todo Add Feature Redux",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/bzCJRhy/project17.jpg",
-    "imageSrc": ["https://i.ibb.co/NmtP7gC/project17.png"],
+    "imageSrc": "https://i.ibb.co/NmtP7gC/project17.png",
     "link": "https://todo-add-feature-gc1vtsh0g-tahirahmad01.vercel.app/",
     "source": "https://github.com/TahirAhmad01/TodoAddFeature"
   },
@@ -157,7 +158,7 @@
     "name": "Chat Application With Rtk Query",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/L9K70Hz/project18.jpg",
-    "imageSrc": ["https://i.ibb.co/6wbCtM7/project18.png"],
+    "imageSrc": "https://i.ibb.co/6wbCtM7/project18.png",
     "link": "https://chat-application-with-rtk-query.vercel.app/",
     "source": "https://github.com/TahirAhmad01/ChatApplicationWithRtkQuery"
   },
@@ -166,7 +167,7 @@
     "name": "Weather Application Redux",
     "category": ["html", "css", "react", "redux", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/jGH3cnf/project19.jpg",
-    "imageSrc": ["https://i.ibb.co/26Lqw4y/project19.png"],
+    "imageSrc": "https://i.ibb.co/26Lqw4y/project19.png",
     "link": "https://weatherappredux.vercel.app/",
     "source": "https://github.com/TahirAhmad01/WeatherAplicationRedux"
   },
@@ -175,7 +176,7 @@
     "name": "tailwind toggling dark",
     "category": ["html", "css", "react", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/3yvHcZK/project20.jpg",
-    "imageSrc": ["https://i.ibb.co/ZdkmKCZ/project20.png"],
+    "imageSrc": "https://i.ibb.co/ZdkmKCZ/project20.png",
     "link": "https://tailwind-toggling-dark.vercel.app/",
     "source": "https://github.com/TahirAhmad01/tailwind-toggling-dark"
   },
@@ -184,7 +185,7 @@
     "name": "github api test",
     "category": ["html", "css", "react", "redux", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/LzV8ZYS/project21.png",
-    "imageSrc": ["https://i.ibb.co/1qHW193/project21.png"],
+    "imageSrc": "https://i.ibb.co/1qHW193/project21.png",
     "link": "https://github-api-test-delta.vercel.app/",
     "source": "https://github.com/TahirAhmad01/tailwind-toggling-dark",
     "description": "This project is built using popular JavaScript technologies such as React, Redux, and Tailwind CSS, and it interacts with the GitHub API to fetch a user's profile details, followers, following, and repositories. The application presents the fetched data in an intuitive and visually appealing user interface.The GitHub profile information, including the user's profile picture, username and other relevant details, is displayed prominently using a profile card component. The user's followers, following, and repositories are also displayed in separate cards, providing a summary of the corresponding data, such as counts and relevant details."
@@ -194,7 +195,7 @@
     "name": "Imgbb Ap Test",
     "category": ["html", "react", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/YbmP4HT/Screenshot-110-1.jpg",
-    "imageSrc": ["https://i.ibb.co/dPBKkjr/Screenshot-110.png"],
+    "imageSrc": "https://i.ibb.co/dPBKkjr/Screenshot-110.png",
     "link": "https://imgbb-api-test.vercel.app/",
     "source": "https://github.com/TahirAhmad01/imgbb-api-test",
     "description": "Immerse yourself in the world of seamless image uploading and management with imgBB API Test, a dynamic web application built using React and styled with the elegance of Tailwind CSS. This intuitive platform allows users to effortlessly upload, explore, and manage images through the robust imgBB API. Experience a fluid user interface, powered by React's cutting-edge capabilities, coupled with the responsive and visually appealing design crafted using Tailwind CSS. imgBB API Test simplifies image handling, providing a smooth and efficient experience for both developers and end-users alike."
@@ -204,7 +205,7 @@
     "name": "next13 typescript with redux",
     "category": ["html", "react", "next", "tailwind", "redux", "typescript"],
     "placeholderSrc": "https://i.ibb.co/18hWzPv/Screenshot-111.jpg",
-    "imageSrc": ["https://i.ibb.co/dmhJtDL/Screenshot-111.png"],
+    "imageSrc": "https://i.ibb.co/dmhJtDL/Screenshot-111.png",
     "link": "https://next13-typescript-with-redux.vercel.app/",
     "source": "https://github.com/TahirAhmad01/next13-typescript-with-redux",
     "description": "Dive into the future of web development with Next.js 13, leveraging the power of TypeScript and Redux, in this groundbreaking project. Seamlessly blending the flexibility of TypeScript with the efficiency of Redux state management, this application offers an unparalleled development experience. Harness the latest Next.js capabilities to build dynamic, server-rendered React applications with ease. Utilizing Redux, manage your application state effortlessly, ensuring a smooth and synchronized user experience across the entire application. With Next.js 13, TypeScript, and Redux combined, you're equipped to create high-performance, type-safe, and scalable web applications that redefine the standards of modern web development."
@@ -214,122 +215,19 @@
     "name": "Web Agency With Nextjs",
     "category": ["html", "javascript", "tailwind", "next"],
     "placeholderSrc": "https://i.ibb.co/6RNy15B/Screenshot-112.jpg",
-    "imageSrc": ["https://i.ibb.co/b2NH2j8/Screenshot-112.png"],
+    "imageSrc": "https://i.ibb.co/b2NH2j8/Screenshot-112.png",
     "link": "https://web-agency-with-nextjs.vercel.app/",
     "source": "https://github.com/TahirAhmad01/WebAgencyWithNextjs",
     "description": "\"WebAgencyWithNextjs\" is a modern website template developed using Next.js, a popular React framework for building fast and responsive web applications. This template incorporates Tailwind CSS, a utility-first CSS framework, to create a visually appealing and user-friendly interface. With Next.js providing seamless server-side rendering and Tailwind CSS offering efficient styling, \"WebAgencyWithNextjs\" ensures a smooth and visually appealing web experience for users. Whether you're showcasing a web agency's services or creating a portfolio, this template offers a solid foundation for building professional and visually stunning websites."
   },
   {
     "id": 25,
-    "name": "Image Gallery Ollyo Task Typescript",
-    "category": ["html", "typescript", "react", "tailwind"],
-    "placeholderSrc": "https://i.ibb.co/s1HzSXV/Screenshot-21.jpg",
-    "imageSrc": ["https://i.ibb.co/k9NLnvc/Screenshot-21.png"],
-    "link": "https://image-gallery-ollyo-task-typescript.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/ImageGalleryOllyoTaskTypescript",
-    "description": "Welcome to our React JS Image Gallery project—a hands-on experience for budding developers. Dive into a visually captivating grid layout, featuring a standout image as the focal point. Effortlessly reorder images with intuitive drag-and-drop functionality, and efficiently manage your gallery by deleting multiple images. Setting a feature image is a breeze, with the first image from left to right taking the spotlight. Enjoy a seamless user experience with smooth transitions and animations."
-  },
-  {
-    "id": 26,
-    "worked_company_id": 2,
-    "name": "Dojoteq",
-    "category": ["html", "next", "react", "tailwind"],
-    "placeholderSrc": "https://i.ibb.co/Mkc6yz6/Dashboard.jpg",
-    "imageSrc": [
-      "https://i.ibb.co/pzKnS2d/Dashboard.png",
-      "https://i.ibb.co.com/7VhsLRq/View-Class.png",
-      "https://i.ibb.co.com/mJqGgpM/Settings.png",
-      "https://i.ibb.co.com/FsfCw18/New-Class-2.png",
-      "https://i.ibb.co.com/kx00W4R/New-Class.png",
-      "https://i.ibb.co.com/Jp1RBbY/My-Classes-Upcoming.png",
-      "https://i.ibb.co.com/pwhjjjf/My-Classes-Past.png",
-      "https://i.ibb.co.com/CKnnkkC/Message.png",
-      "https://i.ibb.co.com/hWKWQWq/Live-Class.png",
-      "https://i.ibb.co.com/6DwF9MX/Calendar.png"
-    ],
-    "link": "https://dojoteq-instructor.edalytics.com/login",
-    "description": "Our online training platform features live video classes with One-to-One and One-to-Many call options. Students join classes via a mobile app, instructors use a dashboard for scheduling, and admins oversee everything through an admin dashboard. Video sharing is enabled for both in One-to-One, but only for instructors in One-to-Many. We use Stripe for secure payments."
-  },
-  {
-    "id": 27,
-    "worked_company_id": 2,
-    "name": "Decofetch",
-    "category": ["html", "rest-api", "react", "bootstrap"],
-    "placeholderSrc": "https://i.ibb.co/X21sWh9/Screenshot-from-2024-08-27-10-57-22.jpg",
-    "imageSrc": [
-      "https://i.ibb.co.com/0tvHGQH/Screenshot-from-2024-11-21-10-13-02.png",
-      "https://i.ibb.co.com/tLBqxtD/Screenshot-from-2024-11-21-10-12-19.png",
-      "https://i.ibb.co.com/tDR0KHp/Screenshot-from-2024-11-21-10-11-44.png",
-      "https://i.ibb.co.com/svPCy71/Screenshot-from-2024-11-21-10-14-04.png",
-      "https://i.ibb.co.com/JQN5BbY/Screenshot-from-2024-11-21-10-14-34.png"
-    ],
-    "link": "https://www.decofetch.com/",
-    "description": "This E-commerce application specializes in furniture sales, offering various categories and customizable product options. Users can choose different variations and order custom sizes. Payments are processed via Stripe and PayPal. A unique 'Shop The Look' feature allows users to explore room designs and select products by clicking on white dots within the image. We also offer a trade program with discounted pricing for eligible users. An admin dashboard manages all features, allowing dynamic content updates across the site, similar to a CMS system.This E-commerce application specializes in furniture sales, offering various categories and customizable product options. Users can choose different variations and order custom sizes. Payments are processed via Stripe and PayPal. A unique 'Shop The Look' feature allows users to explore room designs and select products by clicking on white dots within the image. We also offer a trade program with discounted pricing for eligible users. An admin dashboard manages all features, allowing dynamic content updates across the site, similar to a CMS system."
-  },
-  {
-    "id": 28,
-    "worked_company_id": 2,
-    "name": "Doodl Space",
-    "category": ["html", "rest-api", "react", "bootstrap", "tailwind"],
-    "placeholderSrc": "https://i.ibb.co.com/QmfmkJ7/Screenshot-from-2024-11-24-14-16-19.jpg",
-    "imageSrc": [
-      "https://i.ibb.co.com/sb7qfGr/Screenshot-from-2024-11-24-14-16-19.png",
-      "https://i.ibb.co.com/mtzJhfP/Screenshot-from-2024-11-24-14-16-26.png",
-      "https://i.ibb.co.com/0YYBYGD/Screenshot-from-2024-11-24-14-16-53.png",
-      "https://i.ibb.co.com/0tqfCzn/Screenshot-from-2024-11-24-14-16-57.png",
-      "https://i.ibb.co.com/xgSL18b/Screenshot-from-2024-11-24-14-17-21.png",
-      "https://i.ibb.co.com/QKJMhg1/Screenshot-from-2024-11-24-14-17-32.png",
-      "https://i.ibb.co.com/Kr1t8xs/Screenshot-from-2024-11-24-14-16-32.png",
-      "https://i.ibb.co.com/RBWvjLr/Screenshot-from-2024-11-24-14-16-49.png",
-      "https://i.ibb.co.com/pyMzJ3t/Screenshot-from-2024-11-24-14-16-39.png"
-    ],
-    "link": "https://doodlspace.com/",
-    "description": "Doodl Space understands the pain of spending time and money on scanning profiles, negotiating, onboarding, training and managing designers, when your core business is something else. \n Hence, we have brought to you an on-demand design service where you just need to plug us to your system and wohoo! We are your virtual design team, ready to take up your design challenges right from day 1.\n We have been trusted by more than 90+ brands and agencies till date including some renowned ones as Merchbay, Kraftshala, Teachmint, InBody, etc."
-  },
-  {
-    "id": 29,
-    "worked_company_id": 3,
-    "name": "Course Management Application",
-    "category": [
-      "html",
-      "ruby",
-      "rails",
-      "rspec",
-      "bootstrap",
-      "jquery",
-      "javascript"
-    ],
-    "placeholderSrc": "https://i.ibb.co/sCTYyvL/course-management.jpg",
-    "imageSrc": [
-      "https://i.ibb.co/yYmbmFZ/course-management.png",
-      "https://i.ibb.co.com/KrGhthV/Screenshot-from-2024-11-24-13-51-29.png",
-      "https://i.ibb.co.com/VN5VNd1/Screenshot-from-2024-11-24-13-50-53.png",
-      "https://i.ibb.co.com/VgvjC82/Screenshot-from-2024-11-24-13-50-43.png",
-      "https://i.ibb.co.com/3YYdqZV/Screenshot-from-2024-11-24-13-50-29.png",
-      "https://i.ibb.co.com/RPFPnLN/Screenshot-from-2024-11-24-13-50-21.png",
-      "https://i.ibb.co.com/s6tzyP2/Screenshot-from-2024-11-24-13-50-15.png",
-      "https://i.ibb.co.com/THCMvC5/Screenshot-from-2024-11-24-13-49-19.png",
-      "https://i.ibb.co.com/12MZypg/Screenshot-from-2024-11-24-13-49-05.png",
-      "https://i.ibb.co.com/WVYDwPJ/Screenshot-from-2024-11-24-13-48-48.png"
-    ],
-    "source": "https://github.com/TahirAhmad01/CourseManagementApplication-ROR",
-    "description": "The university student course registration system is unable to cope with the high volume manual process of recording, retrieving and updating each record at registration time. During peak transaction times for each new semester, registration lines are getting longer as well as each student’s waiting and processing time. So an online student course registration system needs to be developed.In the case of a university course registration process, students will be able to register their courses online. The available courses will be chosen by the students under a user authentication process. Registered courses should be listed under a specific semester for each student.There should be search activity by Semester Name so that we can see the registered courses under that semester.Admin can create a semester and mark the semester as the current semester.Lastly Admin will update the each semester result and result will be published calculating the CGPA of each subject and result will be emailed to students.Each student will be able to see their own result through his registered email id."
-  },
-  {
-    "id": 30,
-    "worked_company_id": 3,
-    "name": "Uddogi",
-    "category": ["html", "ruby", "rails", "bootstrap", "jquery", "javascript"],
-    "placeholderSrc": "https://img1.wsimg.com/isteam/ip/780e41a2-0b21-4462-92fc-62c521d68110/About%20section.jpg/:/cr=t:5.36%25,l:0%25,w:100%25,h:89.29%25/rs=w:600,h:300,cg:true/qt=q:92",
-    "imageSrc": [
-      "https://img1.wsimg.com/isteam/ip/780e41a2-0b21-4462-92fc-62c521d68110/About%20section.jpg/:/cr=t:5.36%25,l:0%25,w:100%25,h:89.29%25/rs=w:600,h:300,cg:true/qt=q:92",
-      "https://i.ibb.co.com/6ymNK9b/SCR-20241119-boly.png",
-      "https://i.ibb.co.com/jwZJqL5/SCR-20241119-bopb.png",
-      "https://i.ibb.co.com/84gsj7v/Screenshot-from-2024-08-06-15-21-58.png",
-      "https://i.ibb.co.com/Cz4Y9NL/Screenshot-from-2024-08-06-15-22-41.png",
-      "https://i.ibb.co.com/HT5hvFJ/Screenshot-from-2024-08-06-17-00-18.png"
-    ],
-    "link": "https://uddogi.com/",
-    "description": "As a proficient full-stack web developer, I proudly serve at Nascenia Ltd., where my expertise shines in maintaining and enhancing VAT management software. Within this dynamic role, I diligently craft and implement innovative features, swiftly troubleshoot bugs, and meticulously refine code for optimal performance. My focal point lies in the intricate realm of VAT calculation, where precision and efficiency converge to deliver seamless solutions for our esteemed clientele."
+    "name": "PlayQue",
+    "description":"PlayQue - Track Playlists is a productivity app to track your long list of favorite playlists. Do you face the same problem that you get motivated to watch/complete an educational/tech playlist but after watching a few videos you completely forget about the playlist? Here comes the PlayQue - Playlist Tracker where you can add your favorite playlist and track how many videos you have completed, add a reminder notification for every day or custom days. You can either copy a playlist and paste the URL into the app to add a playlist or you can directly search and add any playlist from any channel from the search option in the app",
+    "category": ["kotlin", "jetpack-compose", "retrofit", "hilt", "coroutine", "paging"],
+    "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
+    "imageSrc": "https://i.ibb.co/30n0hm9/playque-productivity-app-image.png",
+    "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
+    "source": "https://github.com/rafiul587/PlayQue"
   }
 ]

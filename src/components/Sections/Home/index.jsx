@@ -40,11 +40,10 @@ export default function Home() {
               <BoxReveal boxColor={"#0b1327"} duration={0.5}>
                 <ReactTyped
                   strings={[
-                    "Full-stack Web Developer",
-                    "Javascript Developer",
-                    "React Developer",
-                    "Ruby Developer",
-                    "Web Designer",
+                    'Android App Developer',
+                    'Kotlin developer',
+                    'Jetpack compose developer',
+                    'UI/UX designer',
                   ]}
                   typeSpeed={90}
                   backSpeed={80}
@@ -75,7 +74,7 @@ export default function Home() {
                     <Button name="Get in touch" />
                   </Link>
                   <a
-                    href="https://drive.google.com/uc?export=download&id=133oZZsA2HoTxaVnt_4ZwJPPYjTkjopKs"
+                    href="https://drive.google.com/uc?export=download&id=1EdZbZ0Z1E0EFrV8kmPqWjWZVajNffdmX"
                     download
                   >
                     <Button name="Download CV" />

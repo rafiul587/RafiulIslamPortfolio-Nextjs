@@ -1,40 +1,12 @@
 [
   {
     "id": 1,
-    "workTitle": "Front End Web Developer",
-    "company_logo": "/images/company_logo/front_end_logo.webp",
-    "startDate": "12-06-2020",
+    "workTitle": "Fiverr",
+    "startDate": "04-02-2022",
     "endDate": "NOW",
-    "position": "React developer",
+    "position": "Android app developer",
     "location": "Dhaka, Bangladesh",
-    "description": "I am a web designer. Also, I am a React front-end developer. I have been doing web design for the last many years. I have worked in web design with HTML5, CSS3, CSS3 Animation, Bootstrap, JavaScript, JQuery, JQuery Animation, React. I am ready to convert your Html conversion ( PSD, image, pdf to Html ). I know many wonderful effects of use on websites and how to keep the website clean. Effective and clean cross-browser support has been a priority in many of the projects I've worked on.",
-    "certificates": ""
-  },
-  {
-    "id": 2,
-    "workTitle": "Kalpas innovation pvt. ltd",
-    "company_logo": "/images/company_logo/kalpas_logo.png",
-    "startDate": "29-12-2021",
-    "endDate": "29-04-2022",
-    "position": "React internship",
-    "location": " Hubballi, Karnataka, India",
-    "description": "During my internship at Kalpas Innovations Pvt. Ltd., located in Hubballi, Karnataka, India, I gained hands-on experience and in-depth knowledge in React.js, a popular JavaScript library for building user interfaces. Over the period of 29th December 2021 to 29th April 2022, I worked alongside a team of skilled developers, contributing to real-world projects and learning best practices in React.js development. During my internship, I had the opportunity to work on various tasks, such as creating interactive UI components, integrating APIs, optimizing performance, and troubleshooting issues. I also gained experience in using modern development tools and technologies, such as Axios, and Material-UI, to build efficient and scalable web applications.",
-    "certificates": [
-      {
-        "image": "/images/Internship-Certificate.png",
-        "title": "internship certificate"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "workTitle": "Nascenia ltd",
-    "company_logo": "/images/company_logo/nascenia_logo.png",
-    "startDate": "15-12-2023",
-    "endDate": "Now",
-    "position": "Junior Software Engineer",
-    "location": "House 6/14, Block A, Lalmatia, Dhaka",
-    "description": "As a Junior Software Engineer at Nascenia, I am working on Uddogi, a VAT management platform built with Ruby on Rails and JavaScript. I focus on building new features, optimizing performance, and ensuring a smooth user experience. Always eager to learn and improve.",
+    "description": "I am a level one seller in fiverr and completed 25+ projects in fiver with al 5* ratings. All my clients are super satisfied with my service as they expressed with their heartwarming feedbacks. Profile URL: https://fiverr.com/rafiul587",
     "certificates": ""
   }
 ]

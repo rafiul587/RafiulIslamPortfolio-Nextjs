@@ -4,34 +4,27 @@
     "list": [
       {
         "id": 1,
-        "name": "Html",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        "position": "expert",
+        "name": "Java",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        "position":"expert",
         "progress": 90
       },
       {
         "id": 2,
-        "name": "css",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-        "position": "expert",
+        "name": "Kotlin",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+        "position":"expert",
         "progress": 85
       },
       {
         "id": 3,
-        "name": "Javascript",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
-        "position": "expert",
+        "name": "Jetpack compose",
+        "icon": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/JetpackCompose_logo_6bIHhzG.png",
+        "position":"expert",
         "progress": 85
       },
       {
         "id": 4,
-        "name": "Ruby",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg",
-        "position": "expert",
-        "progress": 85
-      },
-      {
-        "id": 5,
         "name": "php",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
         "position": "junior",
@@ -40,82 +33,49 @@
     ]
   },
   {
-    "name": "Javascript UI, Frameworks & library",
+    "name": "Frameworks & library",
     "list": [
       {
         "id": 1,
-        "name": "React",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        "position": "expert",
+        "name": "AndroidX",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+        "position":"expert",
         "progress": 90
       },
       {
         "id": 2,
-        "name": "Next.js",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-        "position": "expert",
+        "name": "Retrofit",
+        "icon": "https://avatars.githubusercontent.com/u/82592?s=48&v=4",
+        "position":"expert",
         "progress": 90
       },
       {
         "id": 3,
-        "name": "Node.js",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        "position": "junior",
-        "progress": 40
+        "name": "Hilt",
+        "icon": "https://avatars.githubusercontent.com/u/1342004?s=48&v=4",
+        "position":"junior",
+        "progress": 30
       },
       {
         "id": 4,
-        "name": "JQuery",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
-        "position": "expert",
+        "name": "Room",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain.svg",
+        "position":"expert",
         "progress": 85
       },
       {
         "id": 5,
-        "name": "materialui",
+        "name": "Material 2 & 3",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
         "position": "expert",
         "progress": 90
       },
       {
         "id": 6,
-        "name": "Redux",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-        "position": "expert",
+        "name": "Coroutine",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-plain.svg",
+        "position":"expert",
         "progress": 80
-      },
-      {
-        "id": 7,
-        "name": "Ruby on Rails",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain.svg",
-        "position": "expert",
-        "progress": 90
-      }
-    ]
-  },
-  {
-    "name": "CSS Frameworks",
-    "list": [
-      {
-        "id": 1,
-        "name": "Tailwind",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 2,
-        "name": "Bootstrap",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 3,
-        "name": "Sass",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-        "position": "expert",
-        "progress": 90
       }
     ]
   },
@@ -138,9 +98,9 @@
       },
       {
         "id": 3,
-        "name": "VS Code",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-        "position": "expert",
+        "name": "Android Studio",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
+        "position":"expert",
         "progress": 90
       },
       {
@@ -149,79 +109,6 @@
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
         "position": "expert",
         "progress": 90
-      },
-      {
-        "id": 5,
-        "name": "Ruby Mine",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rubymine/rubymine-original.svg",
-        "position": "expert",
-        "progress": 90
-      }
-    ]
-  },
-  {
-    "name": "Platform",
-    "list": [
-      {
-        "id": 1,
-        "name": "Firebase",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 2,
-        "name": "supabase",
-        "icon": "https://i.ibb.co/6vqNfZ5/supabase-logo-DCC676-FFE2-seeklogo-com-1.png",
-        "position": "expert",
-        "progress": 75
-      }
-    ]
-  },
-  {
-    "name": "Web Browser",
-    "list": [
-      {
-        "id": 1,
-        "name": "Google Chrome",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 2,
-        "name": "Firefox",
-        "icon": "https://i.ibb.co/0JfH6fF/Firefox-logo-2019-svg.png",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 3,
-        "name": "Opera",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 4,
-        "name": "Microsoft Edge",
-        "icon": "https://i.ibb.co/mhndCJX/Microsoft-Edge-logo-2019.png",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 5,
-        "name": "brave",
-        "icon": "https://i.ibb.co/xfZpJZM/brave-software-logo-B77-E610153-seeklogo-com.png",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 6,
-        "name": "Safari",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/safari/safari-original.svg",
-        "position": "expert",
-        "progress": 80
       }
     ]
   },
@@ -230,30 +117,16 @@
     "list": [
       {
         "id": 1,
-        "name": "figma",
+        "name": "Figma",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        "position": "expert",
+        "position":"expert",
         "progress": 90
       },
       {
         "id": 2,
-        "name": "Adobe xd",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg",
-        "position": "junior",
-        "progress": 55
-      },
-      {
-        "id": 3,
-        "name": "Adobe Photoshop",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
-        "position": "junior",
-        "progress": 35
-      },
-      {
-        "id": 4,
         "name": "Adobe Illustrator",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
-        "position": "junior",
+        "position":"junior",
         "progress": 25
       }
     ]

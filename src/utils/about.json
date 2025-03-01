@@ -1,10 +1,10 @@
 {
-  "heading": "Hello! I Am Tahir Ahmad.",
-  "description": "As a seasoned full-stack web developer, I've embarked on a journey that began in 2020, initially focusing on front-end technologies. Over time, I honed my skills in HTML5, CSS3 (with animations), Bootstrap, JavaScript, jQuery, React.js, Redux, and Next.js. In 2023, driven by a desire to broaden my expertise, I ventured into back-end development, embracing Ruby on Rails and Ruby. This transition allowed me to build robust server-side applications, manage databases, and seamlessly integrate APIs.\n Throughout my journey, I've remained committed to clean coding practices, ensuring that every project I undertake delivers optimal performance and scalability. My active participation in open-source projects on GitHub reflects my dedication to collaboration and innovation within the development community. With a passion for both front-end creativity and back-end architecture, I strive to exceed expectations and drive progress in every project I undertake.",
+  "heading": "Hello! I Am Md Rafiul Islam.",
+  "description": "I an experienced Android app developer with over 3+ years of experience in designing and developing high-quality mobile applications. My skills include advanced topics such as MVVM, LiveData, data binding, dagger2, networking, Firebase, Google Maps, Places, Direction API, and more. I have a strong understanding of Kotlin, Java, and Android's modern UI toolkit Jetpack Compose, enabling me to build modern and intuitive user interfaces. I prioritize app performance by implementing efficient coding practices that prevent memory leaks and reduce battery drain. In addition to my Android expertise, I also have some work experience with PHP and Node Js. So, I can provide comprehensive backend and API support to ensure seamless app functionality. If you're looking for a reliable and experienced Android app developer, look no further. Let's work together to bring your app ideas to life.",
 
   "information": [
-    { "id": 1, "name": "email", "details": "tahirahmad0234@gamil.com" },
-    { "id": 2, "name": "phone", "details": "+8801610881871" },
+    { "id": 1, "name": "email", "details": "rafiul587@gamil.com" },
+    { "id": 2, "name": "phone", "details": "+8801644562164" },
     { "id": 3, "name": "address", "details": "Rajshahi, Bangladesh" },
     { "id": 4, "name": "status", "details": "Available" }
   ]

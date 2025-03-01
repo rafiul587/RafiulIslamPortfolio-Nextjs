@@ -39,7 +39,7 @@ export default function About() {
                 fill
                 priority
                 src={picture}
-                alt="Tahir's image"
+                alt="Rafiul's image"
                 className="w-full h-auto object-top object-cover"
               />
             </div>{" "}

@@ -6,42 +6,27 @@
   },
   {
     "id": 2,
-    "name": "html",
-    "category": "html"
+    "name": "kotlin",
+    "category": "kotlin"
   },
   {
     "id": 3,
-    "name": "javascript",
-    "category": "javascript"
+    "name": "java",
+    "category": "java"
   },
   {
     "id": 4,
-    "name": "typescript",
-    "category": "typescript"
+    "name": "jetpack compose",
+    "category": "jetpack-compose"
   },
   {
     "id": 5,
-    "name": "jquery",
-    "category": "jquery"
+    "name": "serverless",
+    "category": "serverless"
   },
   {
     "id": 6,
-    "name": "tailwind",
-    "category": "tailwind"
-  },
-  {
-    "id": 7,
-    "name": "react",
-    "category": "react"
-  },
-  {
-    "id": 8,
-    "name": "redux",
-    "category": "redux"
-  },
-  {
-    "id": 9,
-    "name": "next",
-    "category": "next"
+    "name": "using api",
+    "category": "using-api"
   }
 ]
