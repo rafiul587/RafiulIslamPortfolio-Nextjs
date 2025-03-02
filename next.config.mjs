@@ -11,8 +11,9 @@ const nextConfig = {
   reactStrictMode: false,
   pageExtensions: ["mdx", "md", "jsx", "js", "tsx", "ts"],
   env: {
-    name: "Tahir Ahmad",
-    fullName: "Tahir Ahmad (Sani)",
+    name: "Rafiul Islam",
+    fullName: "Md Rafiul Islam",
+    NEXT_PUBLIC_NAME: "Rafiul Islam",
   },
   sassOptions: {
     includePaths: [path.join(__dirname, "src/assets/css")],
