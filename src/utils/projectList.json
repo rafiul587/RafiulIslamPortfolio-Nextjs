@@ -4,7 +4,7 @@
     "name": "Drum App",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/Y8jnGK2/project9.jpg",
-    "imageSrc": "https://i.ibb.co/56xbcpz/project9.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://tahirahmad01.github.io/ResetPass_Email_template/",
     "source": "https://github.com/TahirAhmad01/ResetPass_Email_template"
   },
@@ -13,7 +13,7 @@
     "name": "Arabic Unity",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/mCyvGj0/project10.jpg",
-    "imageSrc": "https://i.ibb.co/jHxdPGH/project10.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://tahirahmad01.github.io/ResetPass_Email_template/",
     "source": "https://github.com/TahirAhmad01/ResetPass_Email_template"
   },
@@ -22,7 +22,7 @@
     "name": "Trencin App",
     "category": ["html", "css"],
     "placeholderSrc": "https://i.ibb.co/k9SPbxj/project11.jpg",
-    "imageSrc": "https://i.ibb.co/SvPDQDT/project11.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "http://candle-olive.vercel.app/",
     "source": "https://github.com/TahirAhmad01/Candle"
   },
@@ -31,7 +31,7 @@
     "name": "Recovery App",
     "category": ["html", "css", "javascript", "jquery"],
     "placeholderSrc": "https://i.ibb.co/8PTQD67/project12.jpg",
-    "imageSrc": "https://i.ibb.co/1mYmmH6/project12.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://android-css.vercel.app/",
     "source": "https://github.com/TahirAhmad01/Android_Css"
   },
@@ -40,7 +40,7 @@
     "name": "TryNotToLaugh",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/xCz4tRJ/project13.jpg",
-    "imageSrc": "https://i.ibb.co/2KvDV2Y/project13.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://multi-counter-aplication-92ffhurcw-tahirahmad01.vercel.app/",
     "source": "https://github.com/TahirAhmad01/MultiCounterAplication"
   },
@@ -49,7 +49,7 @@
     "name": "Clap and Whistle Detector",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/S0dzfgn/project14.jpg",
-    "imageSrc": "https://i.ibb.co/QD4ZfzH/project14.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "http://shopping-cart-redux-seven.vercel.app/",
     "source": "https://github.com/TahirAhmad01/shopping_cart_redux"
   },
@@ -58,7 +58,7 @@
     "name": "ChargingStatus Monitor",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/djPrbJw/project15.jpg",
-    "imageSrc": "https://i.ibb.co/3spbwYZ/project15.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://todo-app-redux-hazel.vercel.app/",
     "source": "https://github.com/TahirAhmad01/TodoAppRedux"
   },
@@ -67,7 +67,7 @@
     "name": "Flower",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/LkRYJrH/project16.jpg",
-    "imageSrc": "https://i.ibb.co/TqX8Hd5/project16.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://blog-webpage-redux.vercel.app/",
     "source": "https://github.com/TahirAhmad01/BlogWebpageRedux"
   },
@@ -76,7 +76,7 @@
     "name": "Corone Update",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/bzCJRhy/project17.jpg",
-    "imageSrc": "https://i.ibb.co/NmtP7gC/project17.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://todo-add-feature-gc1vtsh0g-tahirahmad01.vercel.app/",
     "source": "https://github.com/TahirAhmad01/TodoAddFeature"
   },
@@ -85,7 +85,7 @@
     "name": "DriveManagement",
     "category": ["html", "css", "react", "redux"],
     "placeholderSrc": "https://i.ibb.co/L9K70Hz/project18.jpg",
-    "imageSrc": "https://i.ibb.co/6wbCtM7/project18.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://chat-application-with-rtk-query.vercel.app/",
     "source": "https://github.com/TahirAhmad01/ChatApplicationWithRtkQuery"
   },
@@ -94,7 +94,7 @@
     "name": "Loveria",
     "category": ["html", "css", "react", "redux", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/jGH3cnf/project19.jpg",
-    "imageSrc": "https://i.ibb.co/26Lqw4y/project19.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://weatherappredux.vercel.app/",
     "source": "https://github.com/TahirAhmad01/WeatherAplicationRedux"
   },
@@ -103,7 +103,7 @@
     "name": "Achiev",
     "category": ["html", "css", "react", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/3yvHcZK/project20.jpg",
-    "imageSrc": "https://i.ibb.co/ZdkmKCZ/project20.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://tailwind-toggling-dark.vercel.app/",
     "source": "https://github.com/TahirAhmad01/tailwind-toggling-dark"
   },
@@ -112,7 +112,7 @@
     "name": "HomeBudget",
     "category": ["html", "css", "react", "redux", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/LzV8ZYS/project21.png",
-    "imageSrc": "https://i.ibb.co/1qHW193/project21.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://github-api-test-delta.vercel.app/",
     "source": "https://github.com/TahirAhmad01/tailwind-toggling-dark",
     "description": "This project is built using popular JavaScript technologies such as React, Redux, and Tailwind CSS, and it interacts with the GitHub API to fetch a user's profile details, followers, following, and repositories. The application presents the fetched data in an intuitive and visually appealing user interface.The GitHub profile information, including the user's profile picture, username and other relevant details, is displayed prominently using a profile card component. The user's followers, following, and repositories are also displayed in separate cards, providing a summary of the corresponding data, such as counts and relevant details."
@@ -122,7 +122,7 @@
     "name": "Prayer Times",
     "category": ["html", "react", "tailwind"],
     "placeholderSrc": "https://i.ibb.co/YbmP4HT/Screenshot-110-1.jpg",
-    "imageSrc": "https://i.ibb.co/dPBKkjr/Screenshot-110.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://imgbb-api-test.vercel.app/",
     "source": "https://github.com/TahirAhmad01/imgbb-api-test",
     "description": "Immerse yourself in the world of seamless image uploading and management with imgBB API Test, a dynamic web application built using React and styled with the elegance of Tailwind CSS. This intuitive platform allows users to effortlessly upload, explore, and manage images through the robust imgBB API. Experience a fluid user interface, powered by React's cutting-edge capabilities, coupled with the responsive and visually appealing design crafted using Tailwind CSS. imgBB API Test simplifies image handling, providing a smooth and efficient experience for both developers and end-users alike."
@@ -132,7 +132,7 @@
     "name": "MVP Chat App",
     "category": ["html", "react", "next", "tailwind", "redux", "typescript"],
     "placeholderSrc": "https://i.ibb.co/18hWzPv/Screenshot-111.jpg",
-    "imageSrc": "https://i.ibb.co/dmhJtDL/Screenshot-111.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://next13-typescript-with-redux.vercel.app/",
     "source": "https://github.com/TahirAhmad01/next13-typescript-with-redux",
     "description": "Dive into the future of web development with Next.js 13, leveraging the power of TypeScript and Redux, in this groundbreaking project. Seamlessly blending the flexibility of TypeScript with the efficiency of Redux state management, this application offers an unparalleled development experience. Harness the latest Next.js capabilities to build dynamic, server-rendered React applications with ease. Utilizing Redux, manage your application state effortlessly, ensuring a smooth and synchronized user experience across the entire application. With Next.js 13, TypeScript, and Redux combined, you're equipped to create high-performance, type-safe, and scalable web applications that redefine the standards of modern web development."
@@ -142,7 +142,7 @@
     "name": "Gooal",
     "category": ["html", "javascript", "tailwind", "next"],
     "placeholderSrc": "https://i.ibb.co/6RNy15B/Screenshot-112.jpg",
-    "imageSrc": "https://i.ibb.co/b2NH2j8/Screenshot-112.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://web-agency-with-nextjs.vercel.app/",
     "source": "https://github.com/TahirAhmad01/WebAgencyWithNextjs",
     "description": "\"WebAgencyWithNextjs\" is a modern website template developed using Next.js, a popular React framework for building fast and responsive web applications. This template incorporates Tailwind CSS, a utility-first CSS framework, to create a visually appealing and user-friendly interface. With Next.js providing seamless server-side rendering and Tailwind CSS offering efficient styling, \"WebAgencyWithNextjs\" ensures a smooth and visually appealing web experience for users. Whether you're showcasing a web agency's services or creating a portfolio, this template offers a solid foundation for building professional and visually stunning websites."
@@ -153,7 +153,7 @@
     "description":"PlayQue - Track Playlists is a productivity app to track your long list of favorite playlists. Do you face the same problem that you get motivated to watch/complete an educational/tech playlist but after watching a few videos you completely forget about the playlist? Here comes the PlayQue - Playlist Tracker where you can add your favorite playlist and track how many videos you have completed, add a reminder notification for every day or custom days. You can either copy a playlist and paste the URL into the app to add a playlist or you can directly search and add any playlist from any channel from the search option in the app",
     "category": ["kotlin", "jetpack-compose", "retrofit", "hilt", "coroutine", "paging"],
     "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
-    "imageSrc": "https://i.ibb.co/30n0hm9/playque-productivity-app-image.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
     "source": "https://github.com/rafiul587/PlayQue"
   },
@@ -163,7 +163,7 @@
     "description":"PlayQue - Track Playlists is a productivity app to track your long list of favorite playlists. Do you face the same problem that you get motivated to watch/complete an educational/tech playlist but after watching a few videos you completely forget about the playlist? Here comes the PlayQue - Playlist Tracker where you can add your favorite playlist and track how many videos you have completed, add a reminder notification for every day or custom days. You can either copy a playlist and paste the URL into the app to add a playlist or you can directly search and add any playlist from any channel from the search option in the app",
     "category": ["kotlin", "jetpack-compose", "retrofit", "hilt", "coroutine", "paging"],
     "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
-    "imageSrc": "https://i.ibb.co/30n0hm9/playque-productivity-app-image.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
     "source": "https://github.com/rafiul587/PlayQue"
   },
@@ -173,7 +173,7 @@
     "description":"PlayQue - Track Playlists is a productivity app to track your long list of favorite playlists. Do you face the same problem that you get motivated to watch/complete an educational/tech playlist but after watching a few videos you completely forget about the playlist? Here comes the PlayQue - Playlist Tracker where you can add your favorite playlist and track how many videos you have completed, add a reminder notification for every day or custom days. You can either copy a playlist and paste the URL into the app to add a playlist or you can directly search and add any playlist from any channel from the search option in the app",
     "category": ["kotlin", "jetpack-compose", "retrofit", "hilt", "coroutine", "paging"],
     "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
-    "imageSrc": "https://i.ibb.co/30n0hm9/playque-productivity-app-image.png",
+    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
     "source": "https://github.com/rafiul587/PlayQue"
   }
