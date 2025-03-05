@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="KeGYsmT-gRaWpvGnbyqjjx0dyF5hMFJHj5Piue9WcYI"
         />
-        <title>{process.env.NEXT_PUBLIC_NAME} - Portfolio</title>
+        <title>Rafiul Islam - Portfolio</title>
         <link
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
           rel="stylesheet"

@@ -177,7 +177,7 @@ export default function Project() {
           <div
             className={`${
               path === "/" || isGridView
-                ? "grid lg:grid-cols-3 sm:grid-cols-2 gap-1 justify-items-center"
+                ? "grid lg:grid-cols-3 sm:grid-cols-2 gap-6 justify-items-center"
                 : "flex flex-col gap-3 w-full"
             } relative`}
           >

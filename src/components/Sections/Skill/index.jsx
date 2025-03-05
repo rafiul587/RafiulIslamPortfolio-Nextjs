@@ -39,7 +39,7 @@ export default function Skill() {
                           <div className="flex items-center z-20 gap-2 relative">
                             <Image
                               src={`${icon ? icon : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"}`}
-                              alt="tahir ahmad's skills"
+                              alt="rafiul islam's skills"
                               className="w-auto h-5 text-white"
                               height={0}
                               width={0}

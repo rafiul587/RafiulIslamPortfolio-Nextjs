@@ -18,9 +18,15 @@ import BoxReveal from "@/components/magicui/box-reveal";
 export default function Home() {
   const { height, width } = useWindowDimensions();
 
+  const stats = [
+    { value: '43+', label: 'Projects Done' },
+    { value: '30+', label: 'Clients' },
+    { value: '3+', label: 'Years Experience' },
+  ];
+
   return (
     <div
-      className={`lightBg dark:darkBg relative ${height > 694 && width > 992 && "h-screen"} overflow-hidden`}
+      className={`lightBg dark:darkBg relative ${height > 720 && width > 992 && "h-screen"} overflow-hidden`}
     >
       <div className="w-full h-full background">
         <div className="h-auto md:h-full pt-24 py-8 containerCustom relative z-10">
@@ -29,7 +35,7 @@ export default function Home() {
               className={`flex items-center justify-center flex-col overflow-hidden h-full w-full relative z-20 pt-20 md:pb-28 pb-32`}
             >
               <div className="relative h-28 w-28 md:h-36 md:w-36 overflow-hidden rounded-full bg-white mb-4">
-                <Image src={avatar} alt="Tahir's picture" fill={true} priority={true} />
+                <Image src={avatar} alt="Rafiul's picture" fill={true} priority={true} />
               </div>
               <h2 className="text-3xl md:text-4xl font-medium pb-4 pt-2 ">
                 <GradualSpacing
@@ -52,6 +58,20 @@ export default function Home() {
                 />
               </BoxReveal>
               <BoxReveal boxColor={"#0b1327"} duration={0.5}>
+                <div className="mt-5 flex gap-8 md:gap-12">
+                  {stats.map((stat, index) => (
+                    <div key={index} className="text-center">
+                      <div className="text-2xl md:text-3xl font-bold text-purple-600 dark:text-purple-400">
+                        {stat.value}
+                      </div>
+                      <div className="text-sm text-gray-600 dark:text-gray-300">
+                        {stat.label}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </BoxReveal>
+              <BoxReveal boxColor={"#0b1327"} duration={0.5}>
                 <div className="icons mt-4 text-gray-600 dark:text-white/60 flex justify-center flex-wrap">
                   {socialBtnList.map((btn, idx) => {
                     const { link, hover, icon } = btn || {};
@@ -71,7 +91,7 @@ export default function Home() {
               <BoxReveal boxColor={"#0b1327"} duration={0.5}>
                 <div className="flex mt-5">
                   <Link href="/contact">
-                    <Button name="Get in touch" />
+                    <Button name="Hire Me" />
                   </Link>
                   <a
                     href="https://drive.google.com/uc?export=download&id=1EdZbZ0Z1E0EFrV8kmPqWjWZVajNffdmX"

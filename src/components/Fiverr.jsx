@@ -10,7 +10,7 @@ function Fiverr() {
     >
       <a
         itemProp="url"
-        href="https://www.fiverr.com/tahirahmad02"
+        href="https://www.fiverr.com/rafiul587"
         rel="nofollow"
         target="_blank"
         style={{ display: "inline-block" }}
@@ -22,20 +22,19 @@ function Fiverr() {
           style={{ display: "none" }}
         />
         <div id="fiverr-widget-seller-data" style={{ display: "none" }}>
-          <div itemProp="name">tahirahmad02</div>
+          <div itemProp="name">rafiul587</div>
           <div itemScope="" itemType="http://schema.org/Organization">
             <span itemProp="name">Fiverr</span>
           </div>
           <div itemProp="jobtitle">Seller</div>
           <div itemProp="description">
-            Hi, I am a front-end web developer. Experienced front-end developer
-            with React JS, proficient in HTML5, CSS3, Bootstrap, JS, jQuery,
-            React JS, Redux, and Next JS. Converts PSD, image, and PDF to clean,
-            responsive HTML. Ensures seamless cross-browser performance, and
-            delivers efficient code. Active GitHub contributor committed to
-            clean coding for optimal performance. I have a team member with 5+
-            years of experience in PHP, and MYSQL. So we can provide any kind of
-            backend and API-related support.
+            I am an android mobile app developer. I can build any kind of modern app. 
+            Have good knowledge in android advanced topics like MVVM, LiveData, 
+            data binding, dagger2, networking, firebase, google maps, places, direction API, etc.
+            And also have a clear concept in Kotlin, JAVA, and android's modern UI toolkit Jetpack compose.
+            I can ensure quality performance by preventing all kinds of memory leaks and unnecessary battery draining.
+            I have a team member with 5+ years of experience in PHP, MYSQL. 
+            So we can provide any kind of backend and API-related support as well.
           </div>
         </div>
       </a>

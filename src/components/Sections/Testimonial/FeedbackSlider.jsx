@@ -29,7 +29,7 @@ export default function FeedbackSlider() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
@@ -37,16 +37,32 @@ export default function FeedbackSlider() {
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [          // Make it responsive for smaller screens
+      {
+        breakpoint: 1024,   // Tablets
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,    // Mobile devices
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <>
       <div>
-        <Slider {...settings}>
+        <Slider {...settings} className="h-full">
           {feedbackList.map((feedback, idx) => {
             return (
-              <div key={idx}>
-                <FeedbackCard feedback={feedback} />
+              <div key={idx} className="flex h-full">
+                <FeedbackCard feedback={feedback}/>
               </div>
             );
           })}

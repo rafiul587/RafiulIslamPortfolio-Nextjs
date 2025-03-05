@@ -14,10 +14,12 @@ export default function Blog() {
         />
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {blogList.map((blog, idx) => {
-            const { img, title, description } = blog || {};
+            const { img, title, description, url } = blog || {};
             return (
               <Fade left={idx === 0} up={idx === 1} right={idx === 2} key={idx}>
-                <BlogCard img={img} title={title} description={description} />
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  <BlogCard img={img} title={title} description={description} />
+                </a>
               </Fade>
             );
           })}

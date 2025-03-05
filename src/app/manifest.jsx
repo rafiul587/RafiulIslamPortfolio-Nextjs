@@ -1,8 +1,8 @@
 export default function manifest() {
   return {
-    name: "Tahir Ahmad Portfolio - Qubartech",
-    short_name: "Tahir's Portfolio - Qubartech",
-    author: "Tahir ahmad, qubartech",
+    name: "Rafiul Islam Portfolio - Qubartech",
+    short_name: "Rafiul's Portfolio - Qubartech",
+    author: "Rafiul Islam, qubartech",
     keywords: [
       `Qubartech, tech, tech company, technology, ${process.env.name}, ${process.env.fullName} portfolio, portfolio`,
     ],

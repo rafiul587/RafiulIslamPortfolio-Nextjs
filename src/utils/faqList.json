@@ -2,12 +2,12 @@
   {
     "id": 1,
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in both front-end and back-end technologies. My front-end skills include HTML5, CSS3 (with animations), Bootstrap, JavaScript, jQuery, React.js, Redux, and Next.js. On the back-end, I work with Ruby on Rails and Ruby to build robust server-side applications and manage databases."
+    "answer": "I specialize in Kotlin, Java, Jetpack Compose, Coroutines, MVVM, Hilt, Google Cloud, AWS, Git, Gradle, Rest API, Firebase, Supabase, MySQL, PostgreSQL, etc."
   },
   {
     "id": 2,
-    "question": "How long have you been working as a web developer?",
-    "answer": "I have been working as a web developer since 2020. I began with front-end technologies and expanded my expertise into back-end development in 2023."
+    "question": "How long have you been working as an android app developer?",
+    "answer": "I have been working as an android app developer since 2020. I began with Java and XML then moved to Kotlin and Jetpack compose."
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
   {
     "id": 6,
     "question": "What types of projects have you worked on?",
-    "answer": "I have worked on a variety of projects ranging from single-page applications and interactive websites to complex server-side applications and APIs. My projects often involve integrating front-end and back-end technologies to deliver seamless user experiences and efficient backend solutions."
+    "answer": "I have worked on a variety of projects like ride sharing, chat app, live footbal score, prayer times, etc."
   }
 ]
