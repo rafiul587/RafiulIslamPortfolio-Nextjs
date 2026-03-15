@@ -31,7 +31,7 @@ function Fiverr() {
             I am an android mobile app developer. I can build any kind of modern app. 
             Have good knowledge in android advanced topics like MVVM, LiveData, 
             data binding, dagger2, networking, firebase, google maps, places, direction API, etc.
-            And also have a clear concept in Kotlin, JAVA, and android's modern UI toolkit Jetpack compose.
+            And also have a clear concept in Kotlin, JAVA, and android&apos;s modern UI toolkit Jetpack compose.
             I can ensure quality performance by preventing all kinds of memory leaks and unnecessary battery draining.
             I have a team member with 5+ years of experience in PHP, MYSQL. 
             So we can provide any kind of backend and API-related support as well.
