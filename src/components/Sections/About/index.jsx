@@ -22,7 +22,20 @@ export default function About() {
               </h3>{" "}
               <div className="text-base flex flex-col gap-4 text-gray-600 dark:text-gray-300 leading-relaxed text-justify md:text-left">
                 {description.split("\n\n").map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+                  <p key={index}>
+                    {paragraph.split(/(\*\*.*?\*\*)/).map((part, i) =>
+                      part.startsWith("**") && part.endsWith("**") ? (
+                        <strong
+                          key={i}
+                          className="font-bold text-gray-900 dark:text-white"
+                        >
+                          {part.slice(2, -2)}
+                        </strong>
+                      ) : (
+                        part
+                      )
+                    )}
+                  </p>
                 ))}
               </div>
               <div className="mt-5">

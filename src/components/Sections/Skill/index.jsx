@@ -14,42 +14,57 @@ export default function Skill() {
           skillsList?.map((skill, idx) => {
             const { name, list } = skill;
             return (
-              <div className="my-5" key={idx}>
-                <Fade up delay={idx * 20} cascade>
-                  <div className="mb-1 capitalize text-xs font-medium dark:text-gray-100">
-                    {name}
+              <div className="my-8" key={idx}>
+                <Fade up delay={idx * 50}>
+                  <div className="mb-4 flex items-center gap-3">
+                    <div className="h-px bg-gray-200 dark:bg-gray-800 flex-grow"></div>
+                    <div className="capitalize text-sm font-bold tracking-widest text-[#1dbf73] dark:text-[#1dbf73] px-2 text-center">
+                      {name}
+                    </div>
+                    <div className="h-px bg-gray-200 dark:bg-gray-800 flex-grow"></div>
                   </div>
-                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
-                    {list?.map((list, idx) => {
-                      const { name, icon, position, progress } = list || {};
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                    {list?.map((skillItem, sIdx) => {
+                      const {
+                        name: skillName,
+                        icon,
+                        position,
+                        progress,
+                      } = skillItem || {};
 
                       return (
                         <div
-                          className="px-4 py-3 dark:bg-[#263249] bg-white shadow-md rounded-lg relative overflow-hidden"
-                          key={idx}
+                          className="group px-4 py-4 dark:bg-[#111827] bg-white border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-[#1dbf73]/40 dark:hover:border-[#1dbf73]/40 rounded-xl relative overflow-hidden transition-all duration-300 hover:-translate-y-1"
+                          key={sIdx}
                         >
-                          <Fade left>
-                            <div
-                              className="absolute top-0 left-0 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 h-full z-10 rounded-lg blur-md"
-                              style={{ width: progress + "%" }}
-                            >
-                              <div className="backdrop-blur-  xl bg-white/80 dark:bg-[#0b1327]/60 h-full w-full"></div>
+                          {/* Modern Progress Indicator (Subtle bottom bar) */}
+                          <div className="absolute bottom-0 left-0 h-[3px] bg-gray-100 dark:bg-gray-800 w-full z-0"></div>
+                          <div
+                            className="absolute bottom-0 left-0 h-[3px] bg-gradient-to-r from-[#1dbf73] to-blue-500 transition-all duration-700 ease-in-out z-10 opacity-30 group-hover:opacity-100"
+                            style={{ width: progress + "%" }}
+                          ></div>
+
+                          <div className="flex items-center gap-4 relative z-20">
+                            <div className="p-2 bg-gray-50 dark:bg-gray-800/50 rounded-lg group-hover:scale-110 transition-transform duration-300 shrink-0">
+                              <Image
+                                src={
+                                  icon ||
+                                  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                }
+                                alt={skillName}
+                                className="w-6 h-6 object-contain"
+                                height={24}
+                                width={24}
+                                unoptimized
+                              />
                             </div>
-                          </Fade>
-                          <div className="flex items-center z-20 gap-2 relative">
-                            <Image
-                              src={`${icon ? icon : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"}`}
-                              alt="rafiul islam's skills"
-                              className="w-auto h-5 text-white"
-                              height={0}
-                              width={0}
-                              unoptimized
-                            />
-                            <div className="capitalize text-md  line-clamp-1">
-                              {name}{" "}
-                              <span className="dark:text-gray-400 text-gray-500 text-xs">
-                                ( {position} )
-                              </span>
+                            <div className="flex flex-col">
+                              <div className="capitalize font-bold text-gray-900 dark:text-gray-100 text-sm">
+                                {skillName}
+                              </div>
+                              <div className="text-[10px] text-gray-500 dark:text-gray-400 font-medium uppercase tracking-tighter">
+                                {position}
+                              </div>
                             </div>
                           </div>
                         </div>

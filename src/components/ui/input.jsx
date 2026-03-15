@@ -25,11 +25,14 @@ const InputWithDebounce = React.forwardRef(
     ref
   ) => {
     const [searchTerm, setSearchTerm] = useState("");
+    const [isMac, setIsMac] = useState(false);
     const debouncedSearchTerm = useDebounce(searchTerm, 500);
 
-
-    const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
     const shortcut = isMac ? "⌘ K" : "Ctrl K";
+
+    useEffect(() => {
+      setIsMac(navigator.platform.toUpperCase().indexOf("MAC") >= 0);
+    }, []);
 
     useEffect(() => {
       if (onDebounce) {

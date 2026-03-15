@@ -27,7 +27,7 @@ export default function Projects({ item, isGridView, path }) {
     <>
       <div
         className={classnames(
-          "relative projectBtn object-contain overflow-hidden hover:cursor-pointer w-full min-h-24",
+          "relative projectBtn group object-contain overflow-hidden hover:cursor-pointer w-full min-h-24 rounded-2xl border border-gray-100 dark:border-gray-800 transition-all duration-500 hover:shadow-2xl hover:border-[#1dbf73]/30",
           {
             "flex items-center gap-3": !isGridView,
           }
@@ -36,10 +36,10 @@ export default function Projects({ item, isGridView, path }) {
       >
         <div
           className={classnames(
-            "overflow-hidden",
+            "overflow-hidden transition-transform duration-700 group-hover:scale-110",
             path === "/" || isGridView
               ? "w-full h-64 sm:h-52 lg:h-56"
-              : "w-60 h-24 md:h-32 rounded-md "
+              : "w-60 h-24 md:h-32 rounded-xl "
           )}
         >
           <LazyLoadImage
@@ -56,28 +56,33 @@ export default function Projects({ item, isGridView, path }) {
         </div>
 
         {path === "/" || isGridView ? (
-          <div className="absolute bg-white/80 backdrop-blur h-[80px] w-full -bottom-full left-0 z-30 md:flex justify-center items-center slide-up transition-all ease-in-out duration-500 dark:text-black hidden">
-            <div>
-              <div className="font-semibold capitalize text-base text-center">
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6 z-30">
+            <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+              <div className="font-black capitalize text-lg text-white mb-1">
                 {name}
               </div>
-              <div className="text-center text-sm">
-                {category.map((cat, idx) => (
-                  <span key={idx}>{(idx ? ", " : "") + cat}</span>
+              <div className="text-gray-300 text-xs font-bold uppercase tracking-widest flex flex-wrap gap-2">
+                {category.slice(0, 3).map((cat, idx) => (
+                  <span key={idx} className="flex items-center">
+                    {idx > 0 && <span className="mx-1 opacity-50">•</span>}
+                    {cat}
+                  </span>
                 ))}
               </div>
             </div>
           </div>
         ) : (
-          <div className="w-full">
-            <div className="font-semibold capitalize line-clamp-1">{name}</div>
-            <div className="text-xs line-clamp-3 mb-2 text-gray-700 dark:text-gray-400">
+          <div className="w-full pr-4">
+            <div className="font-bold text-lg capitalize line-clamp-1 mb-1 dark:text-gray-100">
+              {name}
+            </div>
+            <div className="text-sm line-clamp-2 mb-3 text-gray-600 dark:text-gray-400 leading-relaxed font-medium">
               {description}
             </div>
-            <div className="text-sm">
-              {category.map((cat, idx) => (
+            <div className="flex flex-wrap gap-2">
+              {category.slice(0, 4).map((cat, idx) => (
                 <span
-                  className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300 capitalize md:inline-block hidden shadow-md"
+                  className="bg-gray-100 text-gray-700 text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full dark:bg-gray-800 dark:text-gray-300 border border-gray-200 dark:border-gray-700"
                   key={idx}
                 >
                   {cat}

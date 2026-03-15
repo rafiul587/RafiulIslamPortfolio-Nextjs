@@ -26,15 +26,15 @@ export default function Home() {
 
   return (
     <div
-      className={`lightBg dark:darkBg relative min-h-screen overflow-hidden flex flex-col`}
+      className={`lightBg dark:darkBg relative ${height > 720 && width > 992 ? "h-screen" : "min-h-screen"} flex flex-col`}
     >
       <div className="w-full flex-grow background flex flex-col">
-        <div className="flex-grow pt-28 pb-8 containerCustom relative z-10 flex flex-col">
+        <div className="flex-grow pt-20 pb-4 containerCustom relative z-10 flex flex-col">
           <div className="backdrop-blur-sm bg-white/10 dark:bg-[#0b1327]/20 border dark:border-[#192544] rounded-2xl flex-grow w-full relative overflow-hidden flex flex-col justify-center">
             <div
-              className={`flex items-center justify-center flex-col w-full relative z-20 py-16 md:py-24 px-4`}
+              className={`flex items-center justify-center flex-col w-full relative z-20 py-8 md:py-12 px-4`}
             >
-              <div className="relative h-28 w-28 md:h-36 md:w-36 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-8 shadow-xl shadow-[#1dbf73]/10">
+              <div className="relative h-20 w-20 md:h-28 md:w-28 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-4 shadow-xl shadow-[#1dbf73]/10">
                 <Image
                   src={avatar}
                   alt="Rafiul's picture"
@@ -45,22 +45,22 @@ export default function Home() {
               </div>
 
               <BoxReveal boxColor={"#1dbf73"} duration={0.5} width="100%">
-                <div className="flex items-center justify-center gap-2 px-4 py-1.5 mb-8 bg-[#1dbf73]/10 border border-[#1dbf73]/20 rounded-full w-fit mx-auto">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#1dbf73] animate-pulse"></span>
-                  <span className="text-xs font-bold text-[#1dbf73] uppercase tracking-wider">
+                <div className="flex items-center justify-center gap-2 px-3 py-1 mb-4 bg-[#1dbf73]/10 border border-[#1dbf73]/20 rounded-full w-fit mx-auto">
+                  <span className="w-2 h-2 rounded-full bg-[#1dbf73] animate-pulse"></span>
+                  <span className="text-[10px] md:text-xs font-bold text-[#1dbf73] uppercase tracking-wider">
                     Available For New Projects
                   </span>
                 </div>
               </BoxReveal>
 
-              <h2 className="text-3xl md:text-5xl font-bold pb-2 pt-2 text-center text-gray-900 dark:text-white leading-tight">
+              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold pb-2 pt-1 text-center text-gray-900 dark:text-white leading-snug">
                 <GradualSpacing
-                  className="font-display text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl leading-[1.2] md:leading-[1.2]"
+                  className="font-display text-center text-xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-3xl lg:text-4xl leading-tight"
                   text="Building High-Performance"
                 />
               </h2>
 
-              <BoxReveal boxColor={"#0b1327"} duration={0.5}>
+              <BoxReveal boxColor={"#0b1327"} duration={0.5} width="100%">
                 <ReactTyped
                   strings={[
                     "Android Applications. 🚀",
@@ -71,21 +71,21 @@ export default function Home() {
                   typeSpeed={70}
                   backSpeed={50}
                   loop
-                  className="text-2xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-6 block text-center min-h-[40px] md:min-h-[60px]"
+                  className="text-lg md:text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-4 block text-center min-h-[50px] md:min-h-[40px] px-2"
                 />
               </BoxReveal>
 
-              <BoxReveal boxColor={"#0b1327"} duration={0.6}>
-                <p className="max-w-[600px] text-center text-gray-600 dark:text-gray-300 md:text-lg mb-8 px-4 font-medium leading-relaxed">
+              <BoxReveal boxColor={"#0b1327"} duration={0.6} width="100%">
+                <p className="max-w-[550px] mx-auto text-center text-gray-600 dark:text-gray-300 text-sm md:text-base mb-6 px-4 font-medium leading-relaxed">
                   I help businesses and founders build scalable, maintainable,
                   and beautiful mobile applications that users love and trust.
                 </p>
               </BoxReveal>
 
               <BoxReveal boxColor={"#0b1327"} duration={0.6}>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-2 z-30 relative">
+                <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mt-1 z-30 relative">
                   <Link href="/contact" className="w-full sm:w-auto">
-                    <button className="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-base md:text-lg">
+                    <button className="w-full sm:w-auto px-6 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-sm md:text-base">
                       Start a Project
                     </button>
                   </Link>
@@ -94,11 +94,11 @@ export default function Home() {
                     download
                     className="w-full sm:w-auto"
                   >
-                    <button className="w-full sm:w-auto px-8 py-3.5 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow hover:shadow-md transition-all duration-300 text-base md:text-lg flex items-center justify-center gap-2">
+                    <button className="w-full sm:w-auto px-6 py-2.5 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow hover:shadow-md transition-all duration-300 text-sm md:text-base flex items-center justify-center gap-2">
                       <span>Download CV</span>
                       <svg
-                        width="20"
-                        height="20"
+                        width="16"
+                        height="16"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -116,13 +116,13 @@ export default function Home() {
               </BoxReveal>
 
               <BoxReveal boxColor={"#0b1327"} duration={0.7}>
-                <div className="mt-12 flex flex-wrap justify-center gap-8 md:gap-16 border-t border-gray-200 dark:border-gray-800/60 pt-8 w-full max-w-[800px] mx-auto z-30 relative">
+                <div className="mt-6 flex flex-wrap justify-center gap-6 md:gap-12 border-t border-gray-200 dark:border-gray-800/60 pt-6 w-full max-w-[700px] mx-auto z-30 relative">
                   {stats.map((stat, index) => (
                     <div key={index} className="text-center group">
-                      <div className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-br from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 group-hover:scale-110 transition-transform duration-300">
+                      <div className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-br from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 group-hover:scale-110 transition-transform duration-300">
                         {stat.value}
                       </div>
-                      <div className="text-sm md:text-base font-semibold text-gray-500 flex items-center gap-1 justify-center mt-1 uppercase tracking-wider">
+                      <div className="text-[10px] md:text-xs font-semibold text-gray-500 flex items-center gap-1 justify-center mt-0.5 uppercase tracking-wider">
                         {stat.label}
                       </div>
                     </div>
@@ -131,7 +131,7 @@ export default function Home() {
               </BoxReveal>
 
               <BoxReveal boxColor={"#0b1327"} duration={0.8}>
-                <div className="icons mt-10 text-gray-600 dark:text-gray-400 flex justify-center flex-wrap gap-2 z-30 relative">
+                <div className="icons mt-6 text-gray-600 dark:text-gray-400 flex justify-center flex-wrap gap-2 z-30 relative">
                   {socialBtnList.map((btn, idx) => {
                     const { link, hover, icon } = btn || {};
                     return (

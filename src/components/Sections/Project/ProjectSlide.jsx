@@ -46,114 +46,125 @@ function ProjectSlide({ setOpen, open, projectId }) {
               <div className="containerCustom max-w-screen-lg py-5">
                 {/* Close Button */}
                 <button
-                  className="mb-5 pl-2 pr-4 py-1 rounded-md dark:bg-[#2b3035] bg-gray-200 hover:bg-gray-300 dark:hover:bg-[#27282f] dark:text-white text-gray-700 z-50 flex items-center gap-1"
+                  className="mb-8 pl-3 pr-5 py-2 rounded-full dark:bg-gray-800 bg-white shadow-sm border border-gray-100 dark:border-gray-700 hover:border-[#1dbf73]/50 dark:hover:border-[#1dbf73]/50 dark:text-white text-gray-700 z-50 flex items-center gap-2 transition-all duration-300 group"
                   onClick={handleClose}
                 >
-                  <IoIosArrowBack />
-                  Back
+                  <IoIosArrowBack className="group-hover:-translate-x-1 transition-transform" />
+                  <span className="text-sm font-bold uppercase tracking-wider">
+                    Back to Portfolio
+                  </span>
                 </button>
 
-                {/* Image Section */}
-                <div className="overflow-hidden rounded-lg relative select-none">
-                  <PhotoProvider>
-                    {imageSrc.length > 1 ? (
-                      <Swiper
-                        navigation
-                        modules={[Navigation, Pagination, Autoplay]}
-                        className="mySwiper w-full h-full"
-                        pagination={{ type: "progressbar" }}
-                        lazy={true}
-                        loop
-                      >
-                        {imageSrc.map((img, idx) => (
-                          <SwiperSlide key={idx} className="!h-full relative">
-                            <PhotoView src={img}>
+                {/* Hero Section of Slide */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                  <div className="lg:col-span-7">
+                    <div className="overflow-hidden rounded-2xl relative select-none shadow-2xl border border-gray-200/50 dark:border-gray-700/50">
+                      <PhotoProvider>
+                        {imageSrc.length > 1 ? (
+                          <Swiper
+                            navigation
+                            modules={[Navigation, Pagination, Autoplay]}
+                            className="mySwiper w-full aspect-video"
+                            pagination={{ clickable: true }}
+                            autoplay={{ delay: 3000 }}
+                            loop
+                          >
+                            {imageSrc.map((img, idx) => (
+                              <SwiperSlide key={idx} className="relative">
+                                <PhotoView src={img}>
+                                  <Image
+                                    loader={() => img}
+                                    src={img}
+                                    alt={name}
+                                    width={800}
+                                    height={450}
+                                    className="w-full h-full object-cover cursor-zoom-in"
+                                    unoptimized
+                                  />
+                                </PhotoView>
+                              </SwiperSlide>
+                            ))}
+                          </Swiper>
+                        ) : (
+                          imageSrc[0] && (
+                            <PhotoView src={imageSrc[0]}>
                               <Image
-                                loader={() => img}
-                                loading="lazy"
-                                src={img}
+                                loader={() => imageSrc[0]}
+                                src={imageSrc[0]}
                                 alt={name}
-                                width={0}
-                                height={0}
-                                sizes="(max-width: 768px) 13vw, (max-width: 1200px) 9vw, 5vw"
-                                className="!w-full !h-full object-cover"
-                                placeholder="blur"
-                                blurDataURL={img}
+                                width={800}
+                                height={450}
+                                className="w-full h-full object-cover cursor-zoom-in aspect-video"
+                                unoptimized
                               />
                             </PhotoView>
-                            <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                          </SwiperSlide>
-                        ))}
-                      </Swiper>
-                    ) : (
-                      imageSrc[0] && (
-                        <PhotoView src={imageSrc[0]}>
-                          <Image
-                            loader={() => imageSrc[0]}
-                            loading="lazy"
-                            src={imageSrc[0]}
-                            alt={name}
-                            width={0}
-                            height={0}
-                            className="w-full h-full object-cover"
-                            placeholder="blur"
-                            blurDataURL={imageSrc[0]}
-                          />
-                        </PhotoView>
-                      )
-                    )}
-                  </PhotoProvider>
-                </div>
-
-                {/* Content Section */}
-                <div className="py-5">
-                  <h2 className="text-2xl font-medium capitalize dark:text-white">
-                    {name}
-                  </h2>
-                  <p className="text-sm text-gray-700 dark:text-gray-400 mt-2 mb-4">
-                    {description ||
-                      "No description available for this project."}
-                  </p>
-
-                  {/* Categories */}
-                  <div className="mb-5">
-                    {category.map((cat, idx) => (
-                      <div
-                        key={idx}
-                        className="bg-blue-100 text-blue-800 text-xs font-medium mr-1 px-2.5 py-0.5 rounded-2xl dark:bg-blue-200 dark:text-blue-800 capitalize inline-block"
-                      >
-                        {cat}
-                      </div>
-                    ))}
+                          )
+                        )}
+                      </PhotoProvider>
+                    </div>
                   </div>
 
-                  {/* Links */}
-                  {(link || source) && (
-                    <div className="mt-3 flex gap-1">
-                      {link && (
-                        <a href={link} target="_blank" rel="noreferrer">
-                          <button className="bg-[#7c3aed] hover:bg-[#5b21b6] text-sm text-white font-medium py-2 px-3 rounded-lg inline-flex items-center">
-                            <i
-                              aria-hidden
-                              className="fa-solid fa-share-from-square mr-2"
-                            ></i>
-                            <span>Live Preview</span>
-                          </button>
-                        </a>
-                      )}
-                      {source && (
-                        <a href={source} target="_blank" rel="noreferrer">
-                          <button className="bg-[#475569] hover:bg-[#334155] text-sm text-white font-medium py-2 px-3 rounded-lg inline-flex items-center">
-                            <i
-                              aria-hidden
-                              className="fa-brands fa-github mr-2"
-                            ></i>
-                            <span>Github</span>
-                          </button>
-                        </a>
-                      )}
+                  <div className="lg:col-span-5 flex flex-col h-full">
+                    <h2 className="text-3xl md:text-4xl font-black mb-4 dark:text-white leading-tight">
+                      {name}
+                    </h2>
+
+                    <div className="flex flex-wrap gap-2 mb-6">
+                      {category.map((cat, idx) => (
+                        <span
+                          key={idx}
+                          className="bg-[#1dbf73]/10 text-[#1dbf73] text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-[#1dbf73]/20"
+                        >
+                          {cat}
+                        </span>
+                      ))}
                     </div>
-                  )}
+
+                    <div className="prose dark:prose-invert max-w-none mb-8">
+                      <p className="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                        {description ||
+                          "No description available for this project."}
+                      </p>
+                    </div>
+
+                    {/* Links */}
+                    {(link || source) && (
+                      <div className="mt-auto flex flex-wrap gap-3 pt-6 border-t border-gray-100 dark:border-gray-800">
+                        {link && (
+                          <a
+                            href={link}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex-1 min-w-[140px]"
+                          >
+                            <button className="w-full bg-[#1dbf73] hover:bg-[#19a463] text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-[#1dbf73]/20 transition-all active:scale-95">
+                              <i
+                                aria-hidden
+                                className="fa-solid fa-external-link text-sm"
+                              ></i>
+                              <span>Live Demo</span>
+                            </button>
+                          </a>
+                        )}
+                        {source && (
+                          <a
+                            href={source}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex-1 min-w-[140px]"
+                          >
+                            <button className="w-full bg-gray-900 hover:bg-black text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 transition-all active:scale-95">
+                              <i
+                                aria-hidden
+                                className="fa-brands fa-github text-lg"
+                              ></i>
+                              <span>Code Base</span>
+                            </button>
+                          </a>
+                        )}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
               <Footer />

@@ -1,148 +1,19 @@
 [
   {
-    "id": 1,
-    "name": "Drum App",
-    "category": ["html", "css"],
-    "placeholderSrc": "https://i.ibb.co/Y8jnGK2/project9.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://tahirahmad01.github.io/ResetPass_Email_template/",
-    "source": "https://github.com/TahirAhmad01/ResetPass_Email_template"
-  },
-  {
-    "id": 2,
-    "name": "Arabic Unity",
-    "category": ["html", "css"],
-    "placeholderSrc": "https://i.ibb.co/mCyvGj0/project10.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://tahirahmad01.github.io/ResetPass_Email_template/",
-    "source": "https://github.com/TahirAhmad01/ResetPass_Email_template"
-  },
-  {
-    "id": 3,
-    "name": "Recovery App",
-    "category": ["html", "css", "javascript", "jquery"],
-    "placeholderSrc": "https://i.ibb.co/8PTQD67/project12.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://android-css.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/Android_Css"
-  },
-  {
-    "id": 4,
-    "name": "TryNotToLaugh",
-    "category": ["html", "css", "react", "redux"],
-    "placeholderSrc": "https://i.ibb.co/xCz4tRJ/project13.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://multi-counter-aplication-92ffhurcw-tahirahmad01.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/MultiCounterAplication"
-  },
-  {
-    "id": 5,
-    "name": "Clap and Whistle Detector",
-    "category": ["html", "css", "react", "redux"],
-    "placeholderSrc": "https://i.ibb.co/S0dzfgn/project14.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "http://shopping-cart-redux-seven.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/shopping_cart_redux"
-  },
-  {
-    "id": 6,
-    "name": "ChargingStatus Monitor",
-    "category": ["Java", "XML", "RxJava", "Retrofit", "Room", "DataStore", "Archive API"],
-    "placeholderSrc": "https://i.ibb.co/djPrbJw/project15.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://todo-app-redux-hazel.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/TodoAppRedux"
-  },
-  {
-    "id": 7,
-    "name": "Flower",
-    "category": ["html", "css", "react", "redux"],
-    "placeholderSrc": "https://i.ibb.co/LkRYJrH/project16.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://blog-webpage-redux.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/BlogWebpageRedux"
-  },
-  {
-    "id": 8,
-    "name": "Corone Update",
-    "category": ["html", "css", "react", "redux"],
-    "placeholderSrc": "https://i.ibb.co/bzCJRhy/project17.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://todo-add-feature-gc1vtsh0g-tahirahmad01.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/TodoAddFeature"
-  },
-  {
-    "id": 9,
-    "name": "DriveManagement",
-    "category": ["html", "css", "react", "redux"],
-    "placeholderSrc": "https://i.ibb.co/L9K70Hz/project18.jpg",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://chat-application-with-rtk-query.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/ChatApplicationWithRtkQuery"
-  },
-  {
-    "id": 10,
-    "name": "Loveria",
-    "category": ["html", "css", "react", "redux", "tailwind"],
-    "placeholderSrc": "https://i.ibb.co/jGH3cnf/project19.jpg",
-    "imageSrc": ["https://i.ibb.co.com/wF9XLvs9/lovereia-feature.png"],
-    "link": "https://weatherappredux.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/WeatherAplicationRedux"
-  },
-  {
-    "id": 11,
-    "name": "Achiev",
-    "category": ["html", "css", "react", "tailwind"],
-    "placeholderSrc": "https://i.ibb.co/3yvHcZK/project20.jpg",
-    "imageSrc": ["https://i.ibb.co.com/DHQFThwB/achiev-feature.png"],
-    "link": "https://tailwind-toggling-dark.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/tailwind-toggling-dark"
-  },
-  {
-    "id": 12,
-    "name": "HomeBudget",
-    "category": ["Kotlin", "Jetpack compose", "Hilt", "Coroutines", "Compose Navigation(single activity)", "Firebase (as backend)"],
-    "placeholderSrc": "https://i.ibb.co/LzV8ZYS/project21.png",
-    "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
-    "link": "https://github-api-test-delta.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/tailwind-toggling-dark",
-    "description": "This project is built using popular JavaScript technologies such as React, Redux, and Tailwind CSS, and it interacts with the GitHub API to fetch a user's profile details, followers, following, and repositories. The application presents the fetched data in an intuitive and visually appealing user interface.The GitHub profile information, including the user's profile picture, username and other relevant details, is displayed prominently using a profile card component. The user's followers, following, and repositories are also displayed in separate cards, providing a summary of the corresponding data, such as counts and relevant details."
-  },
-  {
-    "id": 13,
-    "name": "Prayer Times",
-    "category": ["html", "react", "tailwind"],
-    "placeholderSrc": "https://i.ibb.co/YbmP4HT/Screenshot-110-1.jpg",
-    "imageSrc": ["https://i.ibb.co.com/cKbChJyH/prayer-times-feature.png"],
-    "link": "https://imgbb-api-test.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/imgbb-api-test",
-    "description": "Immerse yourself in the world of seamless image uploading and management with imgBB API Test, a dynamic web application built using React and styled with the elegance of Tailwind CSS. This intuitive platform allows users to effortlessly upload, explore, and manage images through the robust imgBB API. Experience a fluid user interface, powered by React's cutting-edge capabilities, coupled with the responsive and visually appealing design crafted using Tailwind CSS. imgBB API Test simplifies image handling, providing a smooth and efficient experience for both developers and end-users alike."
-  },
-  {
-    "id": 14,
-    "name": "MVP Chat App",
-    "category": ["Kotlin", "XML", "Coroutine", "Flow", "MVVM", "Supabase", "Ktor", "Glide", "Hilt", "CameraX"],
-    "placeholderSrc": "https://i.ibb.co/18hWzPv/Screenshot-111.jpg",
-    "imageSrc": ["https://i.ibb.co.com/jktwDQcf/mvp-chat-app-feature.png"],
-    "link": "https://next13-typescript-with-redux.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/next13-typescript-with-redux",
-    "description": "Dive into the future of web development with Next.js 13, leveraging the power of TypeScript and Redux, in this groundbreaking project. Seamlessly blending the flexibility of TypeScript with the efficiency of Redux state management, this application offers an unparalleled development experience. Harness the latest Next.js capabilities to build dynamic, server-rendered React applications with ease. Utilizing Redux, manage your application state effortlessly, ensuring a smooth and synchronized user experience across the entire application. With Next.js 13, TypeScript, and Redux combined, you're equipped to create high-performance, type-safe, and scalable web applications that redefine the standards of modern web development."
-  },
-  {
-    "id": 15,
-    "name": "Gooal",
-    "category": ["Java", "Football API", "FCM", "Cloud Functions", "Exoplayer"],
-    "placeholderSrc": "https://i.ibb.co/6RNy15B/Screenshot-112.jpg",
-    "imageSrc": ["https://i.ibb.co.com/nNpPsVGP/gooal-feature-1.png"],
-    "link": "https://web-agency-with-nextjs.vercel.app/",
-    "source": "https://github.com/TahirAhmad01/WebAgencyWithNextjs",
-    "description": "Gooal is a live football match update app. Users can see daily fixtures of all major leagues, watch highlights, add teams as favourite, and get notified of match events like start time, goal, end time, etc."
+    "id": 18,
+    "name": "DomRide",
+    "description": "DomRide is a premium ride-sharing platform developed specifically for the Dominican Republic. It features real-time GPS tracking, secure payment integration, and a seamless interface for both riders and drivers. Built with high performance in mind using Kotlin and Jetpack Compose, it handles complex socket connections and real-time mapping for a reliable user experience.",
+    "category": ["Kotlin", "Jetpack Compose", "Google Maps", "FCM", "AWS", "Socket.io"],
+    "placeholderSrc": "https://i.ibb.co.com/bjCyY71B/domride-feature.png",
+    "imageSrc": ["https://i.ibb.co.com/bjCyY71B/domride-feature.png"],
+    "link": "https://play.google.com/store/apps/details?id=com.domride.app",
+    "source": "https://github.com/rafiul587/DomRide"
   },
   {
     "id": 16,
     "name": "PlayQue",
-    "description":"PlayQue - Track Playlists is a productivity app to track your long list of favorite playlists. Do you face the same problem that you get motivated to watch/complete an educational/tech playlist but after watching a few videos you completely forget about the playlist? Here comes the PlayQue - Playlist Tracker where you can add your favorite playlist and track how many videos you have completed, add a reminder notification for every day or custom days. You can either copy a playlist and paste the URL into the app to add a playlist or you can directly search and add any playlist from any channel from the search option in the app",
-    "category": ["kotlin", "jetpack-compose", "retrofit", "hilt", "coroutine", "paging"],
+    "description": "PlayQue is a Productivity app designed to help users track and manage their educational playlists. It solves the common problem of losing track of multi-video learning paths by allowing users to save URLs, track progress percentage, and set daily reminders. It's a full-featured app with offline caching and paging for a smooth experience.",
+    "category": ["Kotlin", "Jetpack Compose", "Retrofit", "Hilt", "Room", "Paging 3"],
     "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
     "imageSrc": ["https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"],
     "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
@@ -151,21 +22,51 @@
   {
     "id": 17,
     "name": "DIU Results",
-    "description":"A result checker app for Dhaka International University where students can check their results in detail. Apart from that they can get the faculty list as well as check other bachmates results.",
-    "category": ["Kotlin", "Jetpack Compose", "Retrofit", "MVVM", "Offline Cache"],
-    "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
+    "description": "A dedicated academic portal for Dhaka International University students. This app allows students to instantly check their semester results, view faculty profiles, and connect with batchmates. It features a sophisticated offline caching system that ensures students can access their data even without a stable internet connection.",
+    "category": ["Kotlin", "Jetpack Compose", "Retrofit", "MVVM", "Offline Cache", "Hilt"],
+    "placeholderSrc": "https://i.ibb.co.com/qgbZcf5/playque-productivity-app.jpg",
     "imageSrc": ["https://i.ibb.co.com/N2fhkTgj/diu-results-feature.png"],
     "link": "https://play.google.com/store/apps/details?id=com.qubartech.diuresult",
     "source": "https://github.com/rafiul587/PlayQue"
   },
   {
-    "id": 18,
-    "name": "DomRide",
-    "description":"DomRide is a ride-share app similar to Uber, based in the Dominican Republic.",
-    "category": ["Kotlin", "Jetpack Compose", "API, Google Maps", "FCM", "Google Cloud", "AWS"],
-    "placeholderSrc": "https://i.ibb.co.com/bjCyY71B/domride-feature.png",
-    "imageSrc": ["https://i.ibb.co.com/bjCyY71B/domride-feature.png"],
-    "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
-    "source": "https://github.com/rafiul587/PlayQue"
+    "id": 15,
+    "name": "Gooal",
+    "description": "Gooal provides real-time updates for football fans worldwide. Covering all major leagues, the app offers live scores, match highlights, and personalized notifications for goals and match events. It leverages cloud functions and robust APIs to ensure data is updated within seconds of the actual event.",
+    "category": ["Java", "Football API", "Firebase Cloud Messaging", "Cloud Functions", "Exoplayer"],
+    "placeholderSrc": "https://i.ibb.co/6RNy15B/Screenshot-112.jpg",
+    "imageSrc": ["https://i.ibb.co.com/nNpPsVGP/gooal-feature-1.png"],
+    "link": "https://play.google.com/store/apps/details?id=com.gooal.livescore",
+    "source": "https://github.com/rafiul587/Gooal"
+  },
+  {
+    "id": 14,
+    "name": "MVP Chat App",
+    "description": "A modern real-time messaging application built with a focus on speed and privacy. It utilizes Supabase for authentication and database management, with Hilt for dependency injection. The app supports media sharing using CameraX and provides a smooth typing experience with Coroutines and Flow.",
+    "category": ["Kotlin", "MVVM", "Supabase", "Ktor", "Hilt", "CameraX"],
+    "placeholderSrc": "https://i.ibb.co/18hWzPv/Screenshot-111.jpg",
+    "imageSrc": ["https://i.ibb.co.com/jktwDQcf/mvp-chat-app-feature.png"],
+    "link": "https://github.com/rafiul587/ChatApp",
+    "source": "https://github.com/rafiul587/ChatApp"
+  },
+  {
+    "id": 13,
+    "name": "Prayer Times",
+    "description": "A utility app for accurate prayer times and Qibla direction based on the user's location. Built with a clean UI using Tailwind CSS principles, it allows users to stay connected with their daily routines effortlessly.",
+    "category": ["React", "Tailwind CSS", "Geolocation API"],
+    "placeholderSrc": "https://i.ibb.co/YbmP4HT/Screenshot-110-1.jpg",
+    "imageSrc": ["https://i.ibb.co.com/cKbChJyH/prayer-times-feature.png"],
+    "link": "https://prayer-times.vercel.app/",
+    "source": "https://github.com/rafiul587/prayer-times"
+  },
+  {
+    "id": 10,
+    "name": "Loveria",
+    "description": "A lifestyle and relationship app that uses fun algorithms to calculate compatibility and share results with friends. Designed with a vibrant UI to engage younger audiences.",
+    "category": ["React", "Redux", "Tailwind CSS"],
+    "placeholderSrc": "https://i.ibb.co/jGH3cnf/project19.jpg",
+    "imageSrc": ["https://i.ibb.co.com/wF9XLvs9/lovereia-feature.png"],
+    "link": "https://loveria.vercel.app/",
+    "source": "https://github.com/rafiul587/Loveria"
   }
 ]
