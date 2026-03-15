@@ -6,8 +6,9 @@ import ModalInput from '@/components/edit/modalInput';
 import catBtnList from '@/utils/buttonList';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
-function index() {
+function ProjectEdit() {
   const [projectList, setData] = useState([]);
   const [open, setOpen] = useState(false);
   const [addOrEdit, setDec] = useState('');
@@ -119,9 +120,11 @@ function index() {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      <img
+                      <Image
                         src={imageSrc}
                         alt={name}
+                        width={160}
+                        height={90}
                         className="w-40 h-auto rounded-lg"
                       />
                     </th>
@@ -492,4 +495,4 @@ function index() {
   );
 }
 
-export default index;
+export default ProjectEdit;

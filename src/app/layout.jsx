@@ -3,6 +3,7 @@ import "@/assets/css/global.scss";
 import LayoutComponent from "@/components/LayoutComponent";
 import AppThemeProvider from "@/context/ThemeProvider";
 import { cookies } from "next/headers";
+import Script from "next/script";
 
 export const metadata = {
   title: `${process.env.name} - Portfolio`,
@@ -68,16 +69,9 @@ export default function RootLayout({ children }) {
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
           rel="stylesheet"
         />
-        <script
-          src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
-          async
-        ></script>
-        <script
-          src="https://kit.fontawesome.com/b4ed653758.js"
-          aria-hidden
-          async
-        ></script>
-        <script
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
