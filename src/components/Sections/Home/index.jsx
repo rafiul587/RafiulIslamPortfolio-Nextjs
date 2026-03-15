@@ -21,7 +21,7 @@ export default function Home() {
   const stats = [
     { value: "43+", label: "Projects Done" },
     { value: "30+", label: "Clients" },
-    { value: "3+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
   ];
 
   return (
@@ -63,10 +63,10 @@ export default function Home() {
               <BoxReveal boxColor={"#0b1327"} duration={0.5} width="100%">
                 <ReactTyped
                   strings={[
-                    "Android Applications. 🚀",
-                    "Mobile Experiences. ✨",
-                    "Kotlin Architectures. ⚡",
-                    "Jetpack Compose UIs. 🎨",
+                    "Android Applications",
+                    "Mobile Experiences",
+                    "Kotlin Architectures",
+                    "Jetpack Compose UIs",
                   ]}
                   typeSpeed={70}
                   backSpeed={50}

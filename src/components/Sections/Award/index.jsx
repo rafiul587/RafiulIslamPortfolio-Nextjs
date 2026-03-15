@@ -13,11 +13,11 @@ export default function Award() {
         titleDes="Official recognition and professional milestones" 
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {awardList.map((award, idx) => (
           <Fade up delay={idx * 100} key={award.id}>
-            <div className="group flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 dark:bg-[#0f172a]/80 bg-white border border-gray-100 dark:border-gray-800/60 rounded-xl transition-all duration-300 hover:border-[#9333ea]/40 dark:hover:border-[#9333ea]/40 hover:shadow-lg hover:shadow-purple-500/5 backdrop-blur-sm">
-              <div className="h-full w-full sm:h-20 sm:w-24 aspect-[16/10] sm:aspect-auto relative overflow-hidden rounded-lg flex-shrink-0 border border-gray-100 dark:border-gray-800">
+            <div className="group h-full flex flex-col dark:bg-[#0f172a] bg-white border border-gray-200 dark:border-[#1e293b] rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:bg-gray-50 dark:hover:bg-[#1e293b] hover:border-gray-300 dark:hover:border-[#334155]">
+              <div className="aspect-[16/10] relative overflow-hidden">
                 <Image
                   src={award.image}
                   alt={award.name}
@@ -25,27 +25,23 @@ export default function Award() {
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   unoptimized
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 via-transparent to-transparent opacity-60 sm:hidden"></div>
-                 <div className="absolute bottom-2 left-2 sm:hidden">
-                    <span className="bg-[#9333ea] text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full uppercase tracking-widest">
-                        {award.date}
-                    </span>
-                 </div>
               </div>
               
-              <div className="flex-grow min-w-0 w-full sm:w-auto mt-2 sm:mt-0">
-                <div className="flex justify-between items-start mb-1 gap-2">
-                  <div className="text-[10px] font-bold text-[#9333ea] uppercase tracking-widest truncate">
+              <div className="p-6 flex flex-col flex-grow">
+                <div className="flex justify-between items-center mb-3">
+                  <span className="text-[10px] font-bold text-gray-500 dark:text-[#94a3b8] uppercase tracking-widest bg-gray-100 dark:bg-slate-800 px-2 py-0.5 rounded-md">
                     {award.event}
-                  </div>
-                  <span className="hidden sm:inline-block text-[10px] font-bold text-gray-400 dark:text-gray-500 whitespace-nowrap">
-                      {award.date}
+                  </span>
+                  <span className="text-[10px] font-bold text-gray-400 dark:text-gray-500">
+                    {award.date}
                   </span>
                 </div>
-                <h3 className="text-sm md:text-base font-black dark:text-gray-100 text-gray-900 mb-1 leading-tight truncate">
+                
+                <h3 className="text-lg font-bold dark:text-white text-gray-900 mb-3 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                   {award.name}
                 </h3>
-                <p className="text-[11px] lg:text-xs text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-2">
+                
+                <p className="text-sm text-gray-600 dark:text-[#94a3b8] leading-relaxed line-clamp-3">
                   {award.description}
                 </p>
               </div>

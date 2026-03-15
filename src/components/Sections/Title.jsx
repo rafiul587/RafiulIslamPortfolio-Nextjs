@@ -5,7 +5,7 @@ export default function Title({ title, titleDes, className }) {
     <>
       <div className={`text-center mb-16 ${className}`}>
         <h1 className="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-4">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-500 transition-all duration-300">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
             {title || "Title"}
           </span>
         </h1>

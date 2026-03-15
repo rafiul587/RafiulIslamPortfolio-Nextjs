@@ -18,17 +18,31 @@
       },
       {
         "id": 3,
-        "name": "Jetpack compose",
-        "icon": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/JetpackCompose_logo_6bIHhzG.png",
+        "name": "C",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
         "position":"expert",
         "progress": 85
       },
       {
         "id": 4,
-        "name": "php",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "name": "C++",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+        "position":"expert",
+        "progress": 85
+      },
+      {
+        "id": 5,
+        "name": "Javascript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "position":"expert",
+        "progress": 85
+      },
+      {
+        "id": 6,
+        "name": "Python",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
         "position": "junior",
-        "progress": 15
+        "progress": 60
       }
     ]
   },
@@ -44,34 +58,55 @@
       },
       {
         "id": 2,
+        "name": "Jetpack compose",
+        "icon": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/JetpackCompose_logo_6bIHhzG.png",
+        "position":"expert",
+        "progress": 90
+      },
+      {
+        "id": 3,
+        "name": "Kotlin Multiplatform",
+        "icon": "https://kotlinlang.org/docs/images/kotlin-logo.png",
+        "position":"expert",
+        "progress": 90
+      },
+      {
+        "id": 4,
+        "name": "Compose Multiplatform",
+        "icon": "https://kotlinlang.org/docs/images/kotlin-logo.png",
+        "position":"expert",
+        "progress": 90
+      },
+      {
+        "id": 5,
         "name": "Retrofit",
         "icon": "https://avatars.githubusercontent.com/u/82592?s=48&v=4",
         "position":"expert",
         "progress": 90
       },
       {
-        "id": 3,
+        "id": 6,
         "name": "Hilt",
         "icon": "https://avatars.githubusercontent.com/u/1342004?s=48&v=4",
         "position":"junior",
         "progress": 30
       },
       {
-        "id": 4,
+        "id": 7,
         "name": "Room",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain.svg",
         "position":"expert",
         "progress": 85
       },
       {
-        "id": 5,
+        "id": 8,
         "name": "Material 2 & 3",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
         "position": "expert",
         "progress": 90
       },
       {
-        "id": 6,
+        "id": 9,
         "name": "Coroutine",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-plain.svg",
         "position":"expert",
@@ -80,33 +115,87 @@
     ]
   },
   {
-    "name": "Tools",
+    "name": "DevOps & Clouds",
     "list": [
       {
         "id": 1,
-        "name": "Git",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        "name": "Docker",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
         "position": "expert",
         "progress": 90
       },
       {
         "id": 2,
-        "name": "Github",
+        "name": "CI/CD (Github Actions)",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
         "position": "expert",
         "progress": 90
       },
       {
         "id": 3,
+        "name": "AWS EC2",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 4,
+        "name": "AWS S3",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
+        "position":"expert",
+        "progress": 90
+      },
+      {
+        "id": 5,
+        "name": "AWS Elastic Cache",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 6,
+        "name": "Firebase Cloud Functions",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        "position": "expert",
+        "progress": 90
+      }
+    ]
+  },
+  {
+    "name": "Tools",
+    "list": [
+      {
+        "id": 1,
         "name": "Android Studio",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
         "position":"expert",
         "progress": 90
       },
       {
-        "id": 4,
+        "id": 2,
         "name": "IntelliJ IDEA",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 2,
+        "name": "XCode",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 3,
+        "name": "Antigravity",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 4,
+        "name": "ChatGPT Codex",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
         "position": "expert",
         "progress": 90
       }
