@@ -8,6 +8,8 @@ import Project from "@/components/Sections/Project";
 import Resume from "@/components/Sections/Qualifications";
 import Skill from "@/components/Sections/Skill";
 import Testimonial from "@/components/Sections/Testimonial";
+import Award from "@/components/Sections/Award";
+
 
 function loadStylesAndScripts() {
   return new Promise((resolve) => {
@@ -37,6 +39,7 @@ export default async function Index() {
         <About />
         <Skill />
         <Project />
+        <Award />
         <Resume />
         <Blog />
         <Testimonial />

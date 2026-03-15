@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "1st Runner-Up - IUPC 2023",
+    "description": "Achieved 2nd place in the Inter-University Programming Contest among 100+ competing teams. Recognized for exceptional problem-solving and algorithmic skills.",
+    "event": "IUPC Bangladesh",
+    "date": "2023",
+    "image": "https://i.ibb.co.com/bjCyY71B/domride-feature.png"
+  },
+  {
+    "id": 2,
+    "name": "Featured Developer - Google Play",
+    "description": "My application 'PlayQue' was recognized for its clean architecture and user-centric design principles, gaining significant traction in the productivity category.",
+    "event": "Productivity Spotlight",
+    "date": "2024",
+    "image": "https://i.ibb.co/30n0hm9/playque-productivity-app-image.png"
+  },
+  {
+    "id": 3,
+    "name": "Top Rated Freelancer - Fiverr",
+    "description": "Consistently maintained a 5.0-star rating over 50+ projects, helping international clients build high-performance Android solutions.",
+    "event": "Fiverr Marketplace",
+    "date": "2023 - Present",
+    "image": "https://i.ibb.co.com/nNpPsVGP/gooal-feature-1.png"
+  }
+]

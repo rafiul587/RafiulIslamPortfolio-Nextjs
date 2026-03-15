@@ -45,13 +45,13 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 222.2 84% 3.9%;
     --foreground: 210 40% 98%;
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
+    --primary: 271 91% 65%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -63,7 +63,7 @@
     --destructive-foreground: 210 40% 98%;
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --ring: 250 84% 65%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -74,19 +74,20 @@
   * {
     @apply border-border;
   }
-
-  body {
-    @apply bg-background text-foreground;
-  }
 }
 
 @layer components {
   body {
-    @apply bg-gray-50 dark:bg-[#111827];
+    @apply bg-gray-50 text-foreground;
+  }
+
+  .dark body {
+    background-color: #020617; /* Slate 950 */
+    color: hsl(var(--foreground));
   }
 
   .darkBg {
-    @apply bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-gray-700 to-gray-900;
+    background: linear-gradient(to bottom, #020617, #0f172a, #020617);
   }
 
   .customContainer {
