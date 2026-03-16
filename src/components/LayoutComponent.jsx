@@ -49,7 +49,7 @@ export default function Layout({ children }) {
           scrollY > 90 && (
             <>
               <WhatsAppWidget
-                phoneNumber="+8801610881871"
+                phoneNumber="+8801644562164"
                 companyName={process.env.name}
                 replyTimeText="Typically replies within an hour"
                 sendButton="send"
@@ -60,7 +60,7 @@ export default function Layout({ children }) {
           )
         ) : (
           <WhatsAppWidget
-            phoneNumber="+8801610881871"
+            phoneNumber="+8801644562164"
             companyName={process.env.name}
             replyTimeText="Typically replies within an hour"
             sendButton="send"

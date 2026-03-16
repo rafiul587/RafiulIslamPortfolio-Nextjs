@@ -60,27 +60,27 @@ export default function WorkExperience({ work }) {
             </div>
             <div className="flex-grow min-w-0">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-1 md:gap-3">
-                <h4 className="text-sm md:text-base font-bold text-gray-900 dark:text-white leading-tight truncate">
+                <h4 className="text-base md:text-lg font-bold text-gray-900 dark:text-white leading-tight truncate">
                   <Fade left>{workTitle}</Fade>
                 </h4>
-                <div className="text-[9px] md:text-[10px] font-bold text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded-full whitespace-nowrap w-fit">
+                <div className="text-[11px] md:text-xs font-bold text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2.5 py-1 rounded-full whitespace-nowrap w-fit">
                   <Fade right duration={1300}>
                     <span>{startDate} — {endDate}</span>
                   </Fade>
                 </div>
               </div>
               <div className="flex flex-col mt-1 gap-0.5">
-                <p className="text-[11px] md:text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wide flex items-center gap-1">
+                <p className="text-xs md:text-sm font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wide flex items-center gap-1">
                   <i className="bx bxs-briefcase-alt-2"></i> {position}
                 </p>
                 <div className="flex items-center gap-1 text-[10px] md:text-xs text-gray-500 dark:text-gray-400 opacity-80">
-                  <i className="fa-solid fa-location-dot text-[10px]"></i> {location}
+                  <i className="fa-solid fa-location-dot text-[11px]"></i> {location}
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="text-[11px] md:text-[13px] text-gray-600 dark:text-gray-400 leading-relaxed">
+          <div className="text-sm md:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
             <Fade up>
               <>
                 <p className="line-clamp-2 hover:line-clamp-none transition-all duration-300 mb-2">{description}</p>
@@ -117,7 +117,7 @@ export default function WorkExperience({ work }) {
                             height={32}
                             width={40}
                           />
-                          <span className="text-[9px] font-bold leading-tight line-clamp-1 max-w-[80px]">
+                          <span className="text-[11px] font-bold leading-tight line-clamp-1 max-w-[80px]">
                             {title}
                           </span>
                         </div>
@@ -152,7 +152,7 @@ export default function WorkExperience({ work }) {
                               </div>
                               <div className="flex gap-1 mt-0.5">
                                 {category.slice(0, 1).map((cat, cIdx) => (
-                                  <span key={cIdx} className="text-[9px] px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded font-bold uppercase">
+                                  <span key={cIdx} className="text-[11px] px-1.5 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded font-bold uppercase">
                                     {cat}
                                   </span>
                                 ))}

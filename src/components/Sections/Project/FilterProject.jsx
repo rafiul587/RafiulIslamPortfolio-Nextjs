@@ -12,15 +12,13 @@ import {
 import { HiFilter } from "react-icons/hi";
 
 const categories = [
-  "html",
-  "ruby",
-  "rails",
-  "bootstrap",
-  "jquery",
-  "javascript",
-  "react",
-  "next",
-  "tailwind",
+  "Kotlin",
+  "Java",
+  "Android",
+  "Jetpack Compose",
+  "Firebase",
+  "Retrofit",
+  "MVVM",
 ];
 
 export function FilterProject({

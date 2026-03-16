@@ -1,4 +1,3 @@
-import { ContactMeCard } from "@/components/ContactMeCard";
 import PageLayout from "@/components/PageLayout";
 import Faq from "@/components/Sections/Faq";
 import Skills from "@/components/Sections/Skill";
@@ -13,7 +12,6 @@ export default function Skill() {
       <PageLayout>
         <Skills />
         <Faq />
-        <ContactMeCard />
       </PageLayout>
     </>
   );

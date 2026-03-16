@@ -56,8 +56,11 @@ export default function Project() {
 
     if (selectedCategories.length > 0) {
       filteredItems = filteredItems.filter((project) =>
-        selectedCategories.every((category) =>
-          project.category.includes(category)
+        selectedCategories.every((selectedCat) =>
+          project.category.some(
+            (projectCat) =>
+              projectCat.toLowerCase() === selectedCat.toLowerCase()
+          )
         )
       );
     }

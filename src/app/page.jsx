@@ -1,4 +1,3 @@
-import { ContactMeCard } from "@/components/ContactMeCard";
 import PageLayout from "@/components/PageLayout";
 import WhatIDo from "@/components/Sections/WhatIDo";
 import Blog from "@/components/Sections/Blog";
@@ -10,7 +9,6 @@ import Skill from "@/components/Sections/Skill";
 import Testimonial from "@/components/Sections/Testimonial";
 import Award from "@/components/Sections/Award";
 
-
 function loadStylesAndScripts() {
   return new Promise((resolve) => {
     const stylesPromise = new Promise((styleResolve) =>
@@ -20,8 +18,6 @@ function loadStylesAndScripts() {
     Promise.all([stylesPromise]).then(() => {
       resolve();
     });
-
-    return () => clearTimeout(timer);
   });
 }
 
@@ -44,8 +40,6 @@ export default async function Index() {
         <Blog />
         <Testimonial />
         <Faq />
-        {/* <ContactMe /> */}
-        {/* <ContactMeCard /> */}
       </PageLayout>
     </main>
   );

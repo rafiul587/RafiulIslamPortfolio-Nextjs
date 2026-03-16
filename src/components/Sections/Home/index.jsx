@@ -26,15 +26,15 @@ export default function Home() {
 
   return (
     <div
-      className={`lightBg dark:darkBg relative ${height > 720 && width > 992 ? "h-screen" : "min-h-screen"} flex flex-col`}
+      className="lightBg dark:darkBg relative h-screen overflow-hidden flex flex-col"
     >
-      <div className="w-full flex-grow background flex flex-col">
-        <div className="flex-grow pt-20 pb-4 containerCustom relative z-10 flex flex-col">
-          <div className="backdrop-blur-sm bg-white/10 dark:bg-[#0b1327]/20 border dark:border-[#192544] rounded-2xl flex-grow w-full relative overflow-hidden flex flex-col justify-center">
+      <div className="w-full flex-grow background flex flex-col h-full">
+        <div className="flex-grow pt-16 md:pt-20 pb-4 containerCustom relative z-10 flex flex-col h-full">
+          <div className="backdrop-blur-sm bg-white/10 dark:bg-[#0b1327]/20 border dark:border-[#192544] rounded-2xl flex-grow w-full relative overflow-hidden flex flex-col justify-center max-h-full">
             <div
-              className={`flex items-center justify-center flex-col w-full relative z-20 py-8 md:py-12 px-4`}
+              className="flex items-center justify-center flex-col w-full relative z-20 py-4 md:py-6 px-4"
             >
-              <div className="relative h-24 w-24 md:h-36 md:w-36 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-6 shadow-2xl shadow-[#1dbf73]/10">
+              <div className="relative h-24 w-24 md:h-32 md:w-32 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-6 shadow-2xl shadow-[#1dbf73]/10">
                 <Image
                   src="https://lh3.googleusercontent.com/a/ACg8ocK3LkxY3o3Qlma6xIaP82gQltF8rCI7vdRX6sxxb0QarUQHzJ-YWw=s576-c-no"
                   alt="Rafiul's picture"
@@ -44,10 +44,10 @@ export default function Home() {
                 />
               </div>
 
-              <BoxReveal boxColor={"#1dbf73"} duration={0.5} width="100%">
+              <BoxReveal boxColor={"#1dbf73"} duration={0.5} width="fit-content">
                 <div className="flex items-center justify-center gap-2 px-3 py-1 mb-4 bg-[#1dbf73]/10 border border-[#1dbf73]/20 rounded-full w-fit mx-auto">
                   <span className="w-2 h-2 rounded-full bg-[#1dbf73] animate-pulse"></span>
-                  <span className="text-[10px] md:text-xs font-bold text-[#1dbf73] uppercase tracking-wider">
+                  <span className="text-[10px] md:text-[12px] font-bold text-[#1dbf73] uppercase tracking-wider">
                     Available For New Projects
                   </span>
                 </div>
@@ -55,12 +55,12 @@ export default function Home() {
 
               <h2 className="text-xl md:text-3xl lg:text-4xl font-bold pb-2 pt-1 text-center text-gray-900 dark:text-white leading-snug">
                 <GradualSpacing
-                  className="font-display text-center text-xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-3xl lg:text-4xl leading-tight"
+                  className="font-display text-center text-lg font-extrabold tracking-tight text-gray-900 dark:text-white md:text-2xl lg:text-3xl leading-tight"
                   text="Building High-Performance"
                 />
               </h2>
 
-              <BoxReveal boxColor={"#0b1327"} duration={0.5} width="100%">
+              <BoxReveal boxColor={"#0b1327"} duration={0.5} width="fit-content">
                 <ReactTyped
                   strings={[
                     "Android Applications",
@@ -71,12 +71,12 @@ export default function Home() {
                   typeSpeed={70}
                   backSpeed={50}
                   loop
-                  className="text-lg md:text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-4 block text-center min-h-[50px] md:min-h-[40px] px-2"
+                  className="text-base md:text-xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-4 block text-center min-h-[50px] md:min-h-[40px] px-2"
                 />
               </BoxReveal>
 
-              <BoxReveal boxColor={"#0b1327"} duration={0.6} width="100%">
-                <p className="max-w-[550px] mx-auto text-center text-gray-600 dark:text-gray-300 text-sm md:text-base mb-6 px-4 font-medium leading-relaxed">
+              <BoxReveal boxColor={"#0b1327"} duration={0.6} width="fit-content">
+                <p className="max-w-[550px] mx-auto text-center text-gray-600 dark:text-gray-300 text-[13px] md:text-[15px] mb-6 px-4 font-medium leading-relaxed">
                   I help businesses and founders build scalable, maintainable,
                   and beautiful mobile applications that users love and trust.
                 </p>
@@ -89,7 +89,7 @@ export default function Home() {
                     download
                     className="w-full sm:w-44"
                   >
-                    <button className="w-full px-4 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow-sm hover:shadow-md transition-all duration-300 text-sm md:text-base flex items-center justify-center gap-2">
+                    <button className="w-full px-4 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow-sm hover:shadow-md transition-all duration-300 text-xs md:text-sm flex items-center justify-center gap-2">
                       <span>Download CV</span>
                       <svg
                         width="16"
@@ -108,7 +108,7 @@ export default function Home() {
                     </button>
                   </a>
                   <Link href="/contact" className="w-full sm:w-44">
-                    <button className="w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-sm md:text-base text-center">
+                    <button className="w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-xs md:text-sm text-center">
                       Hire Me
                     </button>
                   </Link>
@@ -119,10 +119,10 @@ export default function Home() {
                 <div className="mt-6 flex flex-wrap justify-center gap-6 md:gap-12 border-t border-gray-200 dark:border-gray-800/60 pt-6 w-full max-w-[700px] mx-auto z-30 relative">
                   {stats.map((stat, index) => (
                     <div key={index} className="text-center group">
-                      <div className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-br from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 group-hover:scale-110 transition-transform duration-300">
+                      <div className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-br from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 group-hover:scale-110 transition-transform duration-300">
                         {stat.value}
                       </div>
-                      <div className="text-[10px] md:text-xs font-semibold text-gray-500 flex items-center gap-1 justify-center mt-0.5 uppercase tracking-wider">
+                        <div className="text-[9px] md:text-[11px] font-semibold text-gray-500 flex items-center gap-1 justify-center mt-0.5 uppercase tracking-wider">
                         {stat.label}
                       </div>
                     </div>
@@ -165,12 +165,10 @@ export default function Home() {
               }}
               className="absolute bottom-0 z-10 "
             />
-
             <BorderBeam
-              size={500}
+              size={width > 768 ? 400 : 250}
               duration={12}
-              delay={9}
-              className="z-[99999]"
+              className="z-[99999] opacity-70"
             />
           </div>
         </div>
