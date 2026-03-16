@@ -17,47 +17,46 @@ export default function Education({ education }) {
 
   return (
     <>
-      <div className="group relative p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#0b1327]/30 hover:shadow-lg transition-all duration-300">
+      <div className="group relative p-4 md:p-5 rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#0b1327]/30 hover:shadow-lg transition-all duration-300">
         <div className="w-full">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mb-4">
-            <div className="flex items-center gap-4">
-              <div className="w-16 h-16 md:w-16 md:h-16 flex-shrink-0">
-                <Zoom>
-                  <Image
-                    src={edu_logo ? edu_logo : icon}
-                    alt={educationTitle}
-                    className="w-full h-full rounded-xl bg-gray-50 dark:bg-gray-800 p-2 object-contain"
-                    width={100}
-                    height={100}
-                  />
-                </Zoom>
-              </div>
-              <div>
-                <h4 className="text-lg font-bold text-gray-900 dark:text-white leading-tight">
+          <div className="flex items-center gap-3 md:gap-5 mb-3">
+            <div className="w-12 h-12 md:w-14 md:h-14 flex-shrink-0 flex items-center justify-center">
+              <Zoom>
+                <Image
+                  src={edu_logo ? edu_logo : icon}
+                  alt={educationTitle}
+                  className="w-full h-full rounded-lg bg-gray-50 dark:bg-gray-800 p-1.5 object-contain"
+                  width={64}
+                  height={64}
+                />
+              </Zoom>
+            </div>
+            <div className="flex-grow min-w-0">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-1 md:gap-4">
+                <h4 className="text-base md:text-lg font-bold text-gray-900 dark:text-white leading-tight truncate">
                   <Fade left>{educationTitle}</Fade>
                 </h4>
-                <p className="text-sm font-semibold text-indigo-600 dark:text-indigo-400 mt-1 uppercase tracking-wide flex items-center gap-2">
-                  <i className="bx bxs-graduation text-lg"></i> {position}
-                </p>
-              </div>
-            </div>
-            <div className="mt-2 md:mt-0 text-gray-500 dark:text-gray-400 text-[10px] md:text-xs font-bold bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap overflow-hidden">
-              <Fade right duration={1300}>
-                <div className="flex items-center gap-2">
-                  <i className="fa-regular fa-calendar-days"></i>
-                  {startDate} — {endDate}
+                <div className="text-[10px] md:text-xs font-bold text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2.5 py-1 rounded-full whitespace-nowrap w-fit">
+                  <Fade right duration={1300}>
+                    <span>{startDate} — {endDate}</span>
+                  </Fade>
                 </div>
-              </Fade>
+              </div>
+              <div className="flex flex-col mt-1.5 gap-1">
+                <p className="text-[11px] md:text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wide flex items-center gap-1.5">
+                  <i className="bx bxs-graduation text-sm"></i> {position}
+                </p>
+                <div className="flex items-center gap-1 text-[10px] md:text-xs text-gray-500 dark:text-gray-400 opacity-80">
+                  <i className="fa-solid fa-location-dot text-[10px]"></i> {location}
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="text-sm text-gray-600 dark:text-gray-400 mb-2 leading-relaxed">
+          <div className="text-[12px] md:text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
             <Fade up>
               <>
-                <div className="flex items-center gap-2 mb-3 text-xs opacity-75">
-                  <i className="fa-solid fa-location-dot"></i> {location}
-                </div>
-                <p>{description}</p>
+                <p className="line-clamp-2 hover:line-clamp-none transition-all duration-300">{description}</p>
               </>
             </Fade>
           </div>

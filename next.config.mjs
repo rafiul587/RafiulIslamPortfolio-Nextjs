@@ -35,6 +35,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "img.icons8.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "**.example.com",
         port: "",
       },

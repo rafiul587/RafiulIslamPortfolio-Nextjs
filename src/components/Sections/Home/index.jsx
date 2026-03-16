@@ -34,7 +34,7 @@ export default function Home() {
             <div
               className={`flex items-center justify-center flex-col w-full relative z-20 py-8 md:py-12 px-4`}
             >
-              <div className="relative h-20 w-20 md:h-28 md:w-28 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-4 shadow-xl shadow-[#1dbf73]/10">
+              <div className="relative h-24 w-24 md:h-36 md:w-36 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-6 shadow-2xl shadow-[#1dbf73]/10">
                 <Image
                   src="https://lh3.googleusercontent.com/a/ACg8ocK3LkxY3o3Qlma6xIaP82gQltF8rCI7vdRX6sxxb0QarUQHzJ-YWw=s576-c-no"
                   alt="Rafiul's picture"
@@ -83,18 +83,13 @@ export default function Home() {
               </BoxReveal>
 
               <BoxReveal boxColor={"#0b1327"} duration={0.6}>
-                <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mt-1 z-30 relative">
-                  <Link href="/contact" className="w-full sm:w-auto">
-                    <button className="w-full sm:w-auto px-6 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-sm md:text-base">
-                      Start a Project
-                    </button>
-                  </Link>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-2 z-30 relative w-full px-6">
                   <a
                     href="https://drive.google.com/uc?export=download&id=1EdZbZ0Z1E0EFrV8kmPqWjWZVajNffdmX"
                     download
-                    className="w-full sm:w-auto"
+                    className="w-full sm:w-44"
                   >
-                    <button className="w-full sm:w-auto px-6 py-2.5 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow hover:shadow-md transition-all duration-300 text-sm md:text-base flex items-center justify-center gap-2">
+                    <button className="w-full px-4 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow-sm hover:shadow-md transition-all duration-300 text-sm md:text-base flex items-center justify-center gap-2">
                       <span>Download CV</span>
                       <svg
                         width="16"
@@ -112,6 +107,11 @@ export default function Home() {
                       </svg>
                     </button>
                   </a>
+                  <Link href="/contact" className="w-full sm:w-44">
+                    <button className="w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-sm md:text-base text-center">
+                      Hire Me
+                    </button>
+                  </Link>
                 </div>
               </BoxReveal>
 

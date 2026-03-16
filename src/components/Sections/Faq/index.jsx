@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 import Image from "next/image";
 import FaqImg from "@/assets/images/png/faq.png";
 import faqList from "@/utils/faqList.json";
@@ -42,12 +43,12 @@ export default function Faq() {
                 <h3 className="text-xl md:text-2xl font-bold mb-2">Still have questions?</h3>
                 <p className="text-blue-100 opacity-90">I'm here to help you bring your ideas to life.</p>
               </div>
-              <a 
-                href="#contact" 
+              <Link 
+                href="/contact" 
                 className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-blue-50 transition-colors shadow-lg"
               >
                 Let's Talk
-              </a>
+              </Link>
             </div>
           </Fade>
         </div>
