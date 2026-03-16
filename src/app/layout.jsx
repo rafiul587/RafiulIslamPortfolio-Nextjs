@@ -69,6 +69,10 @@ export default function RootLayout({ children }) {
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
         <Script
           id="gtm-script"
           strategy="afterInteractive"
