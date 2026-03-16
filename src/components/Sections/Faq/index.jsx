@@ -41,13 +41,13 @@ export default function Faq() {
             <div className="mt-12 p-8 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-xl shadow-blue-500/20 flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
                 <h3 className="text-xl md:text-2xl font-bold mb-2">Still have questions?</h3>
-                <p className="text-blue-100 opacity-90">I'm here to help you bring your ideas to life.</p>
+                <p className="text-blue-100 opacity-90">I&apos;m here to help you bring your ideas to life.</p>
               </div>
               <Link 
                 href="/contact" 
                 className="px-8 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-blue-50 transition-colors shadow-lg"
               >
-                Let's Talk
+                Let&apos;s Talk
               </Link>
             </div>
           </Fade>
