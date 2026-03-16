@@ -36,7 +36,7 @@ export default function Home() {
             >
               <div className="relative h-20 w-20 md:h-28 md:w-28 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-4 shadow-xl shadow-[#1dbf73]/10">
                 <Image
-                  src={avatar}
+                  src="https://lh3.googleusercontent.com/a/ACg8ocK3LkxY3o3Qlma6xIaP82gQltF8rCI7vdRX6sxxb0QarUQHzJ-YWw=s576-c-no"
                   alt="Rafiul's picture"
                   fill={true}
                   priority={true}

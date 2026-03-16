@@ -115,6 +115,72 @@
     ]
   },
   {
+    "name": "Backend & APIs",
+    "list": [
+      {
+        "id": 1,
+        "name": "Node.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "position": "expert",
+        "progress": 85
+      },
+      {
+        "id": 2,
+        "name": "REST API",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/network/network-plain.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 3,
+        "name": "Express.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        "position": "expert",
+        "progress": 80
+      }
+    ]
+  },
+  {
+    "name": "Databases",
+    "list": [
+      {
+        "id": 1,
+        "name": "PostgreSQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        "position": "expert",
+        "progress": 85
+      },
+      {
+        "id": 2,
+        "name": "Supabase",
+        "icon": "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 3,
+        "name": "Firestore",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 4,
+        "name": "Realtime DB",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 5,
+        "name": "SQL & NoSQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "position": "expert",
+        "progress": 85
+      }
+    ]
+  },
+  {
     "name": "DevOps & Clouds",
     "list": [
       {

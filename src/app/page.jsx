@@ -1,6 +1,6 @@
 import { ContactMeCard } from "@/components/ContactMeCard";
 import PageLayout from "@/components/PageLayout";
-import About from "@/components/Sections/About";
+import WhatIDo from "@/components/Sections/WhatIDo";
 import Blog from "@/components/Sections/Blog";
 import Faq from "@/components/Sections/Faq";
 import Home from "@/components/Sections/Home";
@@ -36,7 +36,7 @@ export default async function Index() {
     <main>
       <Home />
       <PageLayout>
-        <About />
+        <WhatIDo />
         <Skill />
         <Project />
         <Award />

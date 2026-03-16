@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Mobile Development",
+    "description": "Specialized in Native Android using Kotlin and Jetpack Compose, as well as modern Cross-Platform solutions with KMP and CMP.",
+    "icon": "smartphone"
+  },
+  {
+    "id": 2,
+    "title": "Backend & APIs",
+    "description": "Developing high-performance server-side applications and robust REST APIs using Node.js to power seamless user experiences.",
+    "icon": "server"
+  },
+  {
+    "id": 3,
+    "title": "Database Design",
+    "description": "Architecting scalable data solutions with SQL (Postgres), NoSQL, Supabase, and Firebase (Firestore & Realtime Database).",
+    "icon": "database"
+  },
+  {
+    "id": 4,
+    "title": "Technical Writing",
+    "description": "Writing in-depth technical articles and creating engaging content on mobile development and modern software architectures.",
+    "icon": "pen-tool"
+  }
+]
