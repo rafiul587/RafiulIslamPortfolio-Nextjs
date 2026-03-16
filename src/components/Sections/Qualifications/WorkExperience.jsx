@@ -44,167 +44,115 @@ export default function WorkExperience({ work }) {
 
   return (
     <>
-      <div className="p-6 flex items-start">
+      <div className="group relative p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#0b1327]/30 hover:shadow-lg transition-all duration-300">
         <div className="w-full">
-          <div className="flex items-center">
-            <div className="overflow-hidden w-full">
-              <div className="flex flex-col md:flex-row justify-between md:items-center w-full">
-                <div className="flex items-start md:items-center justify-start gap-2 md:gap-4 w-full">
-                  <div className="min-w-16 md:min-w-20">
-                    <Zoom>
-                      <Image
-                        src={company_logo ? company_logo : icon}
-                        alt="work_ico"
-                        className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-gray-100 dark:bg-gray-500 p-1 object-cover"
-                        width={250}
-                        height={250}
-                      />
-                    </Zoom>
-                  </div>
-                  <div>
-                    <h2 className="text-sm md:text-xl font-bold sm:line-clamp-1">
-                      <Fade left>{workTitle}</Fade>
-                    </h2>
-                    <div className="text-gray-500 dark:text-gray-400 text-sm uppercase">
-                      <Fade left delay={150}>
-                        <div className="flex items-start md:items-center flex-col md:flex-row md:gap-2">
-                          <span className="inline-flex items-center capitalize gap-1 line-clamp-1 md:line-clamp-none">
-                            <i
-                              aria-hidden
-                              className="bx bxs-briefcase-alt-2"
-                            ></i>{" "}
-                            {position}
-                          </span>
-                          <span className="md:inline-flex items-center capitalize gap-1 line-clamp-1 md:line-clamp-none">
-                            <i
-                              aria-hidden
-                              className="fa-solid fa-location-dot text-xs"
-                            ></i>{" "}
-                            {location}
-                          </span>
-
-                          <span className="inline-flex items-center capitalize gap-1 md:hidden text-xs">
-                            <div className="mr-1">
-                              <i
-                                aria-hidden
-                                className="fa-regular fa-calendar-days"
-                              ></i>
-                            </div>
-                            <div className="uppercase">
-                              {startDate} - {endDate}
-                            </div>
-                          </span>
-                        </div>
-                      </Fade>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="text-gray-500 dark:text-gray-400 mt-1 pl-2 text-xs hidden md:block flex-grow text-nowrap">
-                  <Fade left={width < 768} right={width > 768} duration={1300}>
-                    <div className="flex items-center">
-                      <div className="mr-1">
-                        <i
-                          aria-hidden
-                          className="fa-regular fa-calendar-days"
-                        ></i>
-                      </div>
-                      <div className="uppercase">
-                        {startDate} - {endDate}
-                      </div>
-                    </div>
-                  </Fade>
-                </div>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mb-4">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 md:w-16 md:h-16 flex-shrink-0">
+                <Zoom>
+                  <Image
+                    src={company_logo ? company_logo : icon}
+                    alt={workTitle}
+                    className="w-full h-full rounded-xl bg-gray-50 dark:bg-gray-800 p-2 object-contain"
+                    width={100}
+                    height={100}
+                  />
+                </Zoom>
+              </div>
+              <div>
+                <h4 className="text-lg font-bold text-gray-900 dark:text-white leading-tight">
+                  <Fade left>{workTitle}</Fade>
+                </h4>
+                <p className="text-sm font-semibold text-blue-600 dark:text-blue-400 mt-1 uppercase tracking-wide flex items-center gap-2">
+                  <i className="bx bxs-briefcase-alt-2"></i> {position}
+                </p>
               </div>
             </div>
+            <div className="mt-2 md:mt-0 text-gray-500 dark:text-gray-400 text-[10px] md:text-xs font-bold bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap overflow-hidden">
+              <Fade right duration={1300}>
+                <div className="flex items-center gap-2">
+                  <i className="fa-regular fa-calendar-days"></i>
+                  {startDate} — {endDate}
+                </div>
+              </Fade>
+            </div>
           </div>
-          <div className="md:ml-20 md:pl-4">
+
+          <div className="text-sm text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
             <Fade up>
               <>
-                <p className="mt-3 md:mt-0 text-sm text-gray-500 dark:text-gray-400">
-                  {description}
-                </p>
-                {certificates &&
-                  certificates.map((certificate, idx) => {
-                    const { image, title } = certificate || {};
-                    const src = image;
-                    return (
-                      <div
-                        key={idx}
-                        className="rounded-xl cursor-pointer flex items-center mt-3"
-                        onClick={handleOpen}
-                      >
-                        <Image
-                          loader={() => src}
-                          src={src}
-                          alt={title}
-                          className="h-20 md:h-24 w-28 md:w-32 rounded-md overflow-hidden shadow-md"
-                          height={300}
-                          width={300}
-                        />
-                        <div className="ml-2 text-gray-500 dark:text-gray-400">
-                          {" "}
-                          {title}
-                        </div>
-                      </div>
-                    );
-                  })}
-
-                {relatedProjects.length > 0 && (
-                  <div className="mt-3 text-gray-500 dark:text-gray-400">
-                    {relatedProjects.map((project, idx) => {
-                      const {
-                        id,
-                        imageSrc,
-                        placeholderSrc,
-                        name,
-                        description: projectDes,
-                        category,
-                      } = project || {};
+                <div className="flex items-center gap-2 mb-3 text-xs opacity-75">
+                  <i className="fa-solid fa-location-dot"></i> {location}
+                </div>
+                <p>{description}</p>
+                {/* Certificates and Projects rendering remains similar but with cleaner spacing */}
+                {certificates && certificates.length > 0 && (
+                  <div className="mt-6 flex flex-wrap gap-4">
+                    {certificates.map((certificate, idx) => {
+                      const { image, title } = certificate || {};
                       return (
                         <div
-                          className="flex justify-start items-start gap-2 w-full mb-4 hover:cursor-pointer"
                           key={idx}
-                          onClick={() => handleOpenProject(id)}
+                          className="flex items-center gap-3 bg-gray-50 dark:bg-gray-800/50 p-2 pr-4 rounded-xl cursor-pointer hover:bg-blue-50 dark:hover:bg-blue-900/10 transition-colors"
+                          onClick={handleOpen}
                         >
-                          <div className="object-contain overflow-hidden hover:cursor-pointer h-16 md:h-24 min-w-20 md:min-w-32 rounded-md shadow-md">
-                            <LazyLoadImage
-                              src={imageSrc}
-                              placeholderSrc={
-                                placeholderSrc ? placeholderSrc : blur
-                              }
-                              threshold="100"
-                              alt={name}
-                              effect="blur"
-                              height="100%"
-                              width="100%"
-                              className="object-cover h-full w-full block"
-                              loading="lazy"
-                            />
-                          </div>
-
-                          <div className="grow">
-                            <div className="font-semibold text-sm md:text-lg">
-                              {name}
-                            </div>
-                            <div className="line-clamp-3 md:line-clamp-2 text-xs md:text-sm">
-                              {projectDes}
-                            </div>
-
-                            {category.map((cat, idx) => (
-                              <>
-                                <div
-                                  className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300 capitalize md:inline-block hidden shadow-md"
-                                  key={idx}
-                                >
-                                  {cat}
-                                </div>
-                              </>
-                            ))}
-                          </div>
+                          <Image
+                            loader={() => image}
+                            src={image}
+                            alt={title}
+                            className="h-12 w-16 rounded-md object-cover shadow-sm"
+                            height={100}
+                            width={100}
+                          />
+                          <span className="text-xs font-bold leading-tight line-clamp-2 max-w-[120px]">
+                            {title}
+                          </span>
                         </div>
                       );
                     })}
+                  </div>
+                )}
+                
+                {relatedProjects.length > 0 && (
+                  <div className="mt-8 pt-6 border-t border-gray-100 dark:border-gray-800">
+                    <h5 className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-4">Related Projects</h5>
+                    <div className="space-y-4">
+                      {relatedProjects.map((project, idx) => {
+                        const { id, imageSrc, name, description: projectDes, category } = project || {};
+                        return (
+                          <div
+                            className="flex gap-4 p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-all cursor-pointer border border-transparent hover:border-gray-200 dark:hover:border-gray-700"
+                            key={idx}
+                            onClick={() => handleOpenProject(id)}
+                          >
+                            <div className="w-20 md:w-24 h-16 md:h-16 flex-shrink-0">
+                              <LazyLoadImage
+                                src={imageSrc}
+                                threshold="100"
+                                alt={name}
+                                effect="blur"
+                                className="w-full h-full object-cover rounded-lg shadow-sm"
+                              />
+                            </div>
+                            <div className="flex-grow min-w-0">
+                              <div className="font-bold text-sm text-gray-900 dark:text-white truncate">
+                                {name}
+                              </div>
+                              <p className="text-xs text-gray-500 dark:text-gray-400 line-clamp-1 mb-1">
+                                {projectDes}
+                              </p>
+                              <div className="flex flex-wrap gap-1">
+                                {category.slice(0, 2).map((cat, cIdx) => (
+                                  <span key={cIdx} className="text-[10px] px-2 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full font-bold uppercase">
+                                    {cat}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 )}
               </>

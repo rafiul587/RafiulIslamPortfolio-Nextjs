@@ -45,7 +45,7 @@ export default async function Index() {
         <Testimonial />
         <Faq />
         {/* <ContactMe /> */}
-        <ContactMeCard />
+        {/* <ContactMeCard /> */}
       </PageLayout>
     </main>
   );

@@ -17,87 +17,47 @@ export default function Education({ education }) {
 
   return (
     <>
-      <div className="p-6 flex items-center">
+      <div className="group relative p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#0b1327]/30 hover:shadow-lg transition-all duration-300">
         <div className="w-full">
-          <div className="flex items-center">
-            <div className="overflow-hidden w-full">
-              <div className="flex flex-col md:flex-row justify-between md:items-center w-full">
-                <div className="flex items-start md:items-center justify-start gap-2 md:gap-4 w-full">
-                  <div className="min-w-16 md:min-w-20">
-                    <Zoom>
-                      <Image
-                        src={edu_logo ? edu_logo : icon}
-                        alt="work_ico"
-                        className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-gray-100 dark:bg-gray-500 p-1 object-contain"
-                        width={250}
-                        height={250}
-                        objectFit="contain"
-                      />
-                    </Zoom>
-                  </div>
-                  <div>
-                    <h2 className="text-sm md:text-xl font-bold sm:line-clamp-1">
-                      <Fade left>{educationTitle}</Fade>
-                    </h2>
-                    <div className="text-gray-500 dark:text-gray-400 text-sm uppercase">
-                      <Fade left delay={150}>
-                        <div className="flex items-start md:items-center flex-col md:flex-row md:gap-2">
-                          <span className="inline-flex items-center capitalize gap-1 line-clamp-1 md:line-clamp-none">
-                            <i
-                              aria-hidden
-                              className="bx bxs-briefcase-alt-2"
-                            ></i>{" "}
-                            {position}
-                          </span>
-                          <span className="md:inline-flex items-center capitalize gap-1 line-clamp-1 md:line-clamp-none">
-                            <i
-                              aria-hidden
-                              className="fa-solid fa-location-dot text-xs"
-                            ></i>{" "}
-                            {location}
-                          </span>
-
-                          <span className="inline-flex items-center capitalize gap-1 md:hidden text-xs">
-                            <div className="mr-1">
-                              <i
-                                aria-hidden
-                                className="fa-regular fa-calendar-days"
-                              ></i>
-                            </div>
-                            <div className="uppercase">
-                              {startDate} - {endDate}
-                            </div>
-                          </span>
-                        </div>
-                      </Fade>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="text-gray-500 dark:text-gray-400 mt-1 pl-2 text-xs hidden md:block flex-grow text-nowrap">
-                  <Fade left={width < 768} right={width > 768} duration={1300}>
-                    <div className="flex items-center">
-                      <div className="mr-1">
-                        <i
-                          aria-hidden
-                          className="fa-regular fa-calendar-days"
-                        ></i>
-                      </div>
-                      <div className="uppercase">
-                        {startDate} - {endDate}
-                      </div>
-                    </div>
-                  </Fade>
-                </div>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mb-4">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 md:w-16 md:h-16 flex-shrink-0">
+                <Zoom>
+                  <Image
+                    src={edu_logo ? edu_logo : icon}
+                    alt={educationTitle}
+                    className="w-full h-full rounded-xl bg-gray-50 dark:bg-gray-800 p-2 object-contain"
+                    width={100}
+                    height={100}
+                  />
+                </Zoom>
+              </div>
+              <div>
+                <h4 className="text-lg font-bold text-gray-900 dark:text-white leading-tight">
+                  <Fade left>{educationTitle}</Fade>
+                </h4>
+                <p className="text-sm font-semibold text-indigo-600 dark:text-indigo-400 mt-1 uppercase tracking-wide flex items-center gap-2">
+                  <i className="bx bxs-graduation text-lg"></i> {position}
+                </p>
               </div>
             </div>
+            <div className="mt-2 md:mt-0 text-gray-500 dark:text-gray-400 text-[10px] md:text-xs font-bold bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap overflow-hidden">
+              <Fade right duration={1300}>
+                <div className="flex items-center gap-2">
+                  <i className="fa-regular fa-calendar-days"></i>
+                  {startDate} — {endDate}
+                </div>
+              </Fade>
+            </div>
           </div>
-          <div className="md:ml-20 md:pl-4">
+
+          <div className="text-sm text-gray-600 dark:text-gray-400 mb-2 leading-relaxed">
             <Fade up>
               <>
-                <p className="mt-3 md:mt-0 text-sm text-gray-500 dark:text-gray-400">
-                  {description}
-                </p>
+                <div className="flex items-center gap-2 mb-3 text-xs opacity-75">
+                  <i className="fa-solid fa-location-dot"></i> {location}
+                </div>
+                <p>{description}</p>
               </>
             </Fade>
           </div>

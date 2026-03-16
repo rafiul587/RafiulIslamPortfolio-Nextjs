@@ -252,37 +252,11 @@
         "progress": 90
       },
       {
-        "id": 3,
-        "name": "Antigravity",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-        "position": "expert",
-        "progress": 90
-      },
-      {
-        "id": 4,
-        "name": "ChatGPT Codex",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-        "position": "expert",
-        "progress": 90
-      }
-    ]
-  },
-  {
-    "name": "Graphics",
-    "list": [
-      {
-        "id": 1,
-        "name": "Figma",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        "position":"expert",
-        "progress": 90
-      },
-      {
         "id": 2,
-        "name": "Adobe Illustrator",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
-        "position":"junior",
-        "progress": 25
+        "name": "XCode",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg",
+        "position": "expert",
+        "progress": 90
       }
     ]
   }
