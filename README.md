@@ -7,8 +7,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Clone the project:
 
   ```bash
-  git clone git@github.com:TahirAhmad01/TahirAhmadPortfolio-Nextjs.git
-  cd TahirAhmadPortfolio-Nextjs
+  git clone git@github.com:rafiul587/RafiulIslamPortfolio-Nextjs.git
+  cd RafiulIslamPortfolio-Nextjs
   cp .env.sample .env
   ```
 

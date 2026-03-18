@@ -59,21 +59,21 @@
       {
         "id": 2,
         "name": "Jetpack compose",
-        "icon": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/JetpackCompose_logo_6bIHhzG.png",
+        "icon": "https://raw.githubusercontent.com/JetBrains/compose-multiplatform/master/artwork/compose-logo.svg",
         "position":"expert",
         "progress": 90
       },
       {
         "id": 3,
         "name": "Kotlin Multiplatform",
-        "icon": "https://kotlinlang.org/docs/images/kotlin-logo.png",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
         "position":"expert",
         "progress": 90
       },
       {
         "id": 4,
         "name": "Compose Multiplatform",
-        "icon": "https://kotlinlang.org/docs/images/kotlin-logo.png",
+        "icon": "https://raw.githubusercontent.com/JetBrains/compose-multiplatform/master/artwork/compose-logo.svg",
         "position":"expert",
         "progress": 90
       },
@@ -200,21 +200,21 @@
       {
         "id": 3,
         "name": "AWS EC2",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
+        "icon": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
         "position": "expert",
         "progress": 90
       },
       {
         "id": 4,
         "name": "AWS S3",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
+        "icon": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
         "position":"expert",
         "progress": 90
       },
       {
         "id": 5,
         "name": "AWS Elastic Cache",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg",
+        "icon": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
         "position": "expert",
         "progress": 90
       },
@@ -245,16 +245,30 @@
         "progress": 90
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "XCode",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg",
         "position": "expert",
         "progress": 90
       },
       {
-        "id": 2,
-        "name": "XCode",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg",
+        "id": 4,
+        "name": "VS Code",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 5,
+        "name": "Antigravity",
+        "icon": "https://static.wikia.nocookie.net/logopedia/images/4/4a/Google_Antigravity_icon.svg",
+        "position": "expert",
+        "progress": 90
+      },
+      {
+        "id": 6,
+        "name": "ChatGPT Codex",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
         "position": "expert",
         "progress": 90
       }
