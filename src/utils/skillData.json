@@ -1,52 +1,52 @@
 [
   {
     "id": 1,
-    "name": "Html",
+    "name": "Java",
     "progress": 90
   },
   {
     "id": 2,
-    "name": "css",
+    "name": "Kotlin",
     "progress": 85
   },
   {
     "id": 3,
-    "name": "Javascript",
+    "name": "Jetpack Compose",
     "progress": 85
   },
   {
     "id": 4,
-    "name": "JQuery",
+    "name": "Xml",
     "progress": 85
   },
   {
     "id": 5,
-    "name": "Sass",
+    "name": "Rest Api",
     "progress": 75
   },
   {
     "id": 6,
-    "name": "Materialize",
+    "name": "Room",
     "progress": 65
   },
   {
     "id": 7,
-    "name": "Bootstrap",
+    "name": "Firebase",
     "progress": 80
   },
   {
     "id": 8,
-    "name": "Tailwind",
+    "name": "Hilt",
     "progress": 80
   },
   {
     "id": 9,
-    "name": "React",
+    "name": "Retrofit",
     "progress": 85
   },
   {
     "id": 10,
-    "name": "Next",
+    "name": "Coroutines",
     "progress": 65
   },
   {

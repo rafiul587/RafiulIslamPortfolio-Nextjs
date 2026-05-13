@@ -18,14 +18,7 @@ export default function Footer() {
             >
               Rafiul Islam
             </a>
-            {"  "}& {"  "}
-            <a
-              href="https://tahirahmad.vercel.app/"
-              target="_blank"
-              className="hover:underline font-semibold"
-            >
-              Tahir Ahmad
-            </a>
+            {"  "}
           </span>
           <div className="icons text-gray-600 dark:text-white/60 flex justify-center flex-wrap mt-2 lg:mt-0">
             {socialBtnList.map((btn, idx) => {
