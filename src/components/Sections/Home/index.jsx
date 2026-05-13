@@ -26,15 +26,15 @@ export default function Home() {
 
   return (
     <div
-      className="lightBg dark:darkBg relative h-screen overflow-hidden flex flex-col"
+      className="lightBg dark:darkBg relative h-[100dvh] overflow-hidden flex flex-col"
     >
       <div className="w-full flex-grow background flex flex-col h-full">
-        <div className="flex-grow pt-16 md:pt-28 pb-4 containerCustom relative z-10 flex flex-col h-full">
-          <div className="backdrop-blur-sm bg-white/10 dark:bg-[#0b1327]/20 border dark:border-[#192544] rounded-2xl flex-grow w-full relative overflow-hidden flex flex-col justify-center max-h-full">
+        <div className="flex-grow pt-16 md:pt-28 pb-4 containerCustom relative z-10 flex flex-col justify-center h-full">
+          <div className="backdrop-blur-sm bg-white/10 dark:bg-[#0b1327]/20 border dark:border-[#192544] rounded-2xl w-full relative overflow-hidden flex flex-col justify-center h-fit max-h-full md:h-full md:flex-grow">
             <div
-              className="flex items-center justify-center flex-col w-full relative z-20 py-2 md:py-6 px-4"
+              className="flex items-center justify-center flex-col w-full h-full max-h-full relative z-20 py-10 md:py-6 [@media(max-height:750px)]:md:py-2 px-4 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
             >
-              <div className="relative h-16 w-16 md:h-32 md:w-32 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-2 md:mb-6 shadow-2xl shadow-[#1dbf73]/10">
+              <div className="relative h-24 w-24 md:h-32 md:w-32 [@media(max-height:750px)]:md:h-20 [@media(max-height:750px)]:md:w-20 overflow-hidden rounded-full border-4 flex-shrink-0 border-[#1dbf73]/30 bg-white mb-4 md:mb-6 [@media(max-height:750px)]:md:mb-2 shadow-2xl shadow-[#1dbf73]/10 transition-all duration-300">
                 <Image
                   src="https://lh3.googleusercontent.com/a/ACg8ocK3LkxY3o3Qlma6xIaP82gQltF8rCI7vdRX6sxxb0QarUQHzJ-YWw=s576-c-no"
                   alt="Rafiul's picture"
@@ -45,7 +45,7 @@ export default function Home() {
               </div>
 
               <BoxReveal boxColor={"#1dbf73"} duration={0.5} width="fit-content">
-                <div className="flex items-center justify-center gap-2 px-3 py-1 mb-2 md:mb-4 bg-[#1dbf73]/10 border border-[#1dbf73]/20 rounded-full w-fit mx-auto">
+                <div className="flex items-center justify-center gap-2 px-3 py-1 mb-4 md:mb-4 [@media(max-height:750px)]:md:mb-2 bg-[#1dbf73]/10 border border-[#1dbf73]/20 rounded-full w-fit mx-auto transition-all duration-300">
                   <span className="w-2 h-2 rounded-full bg-[#1dbf73] animate-pulse"></span>
                   <span className="text-[10px] md:text-[12px] font-bold text-[#1dbf73] uppercase tracking-wider">
                     Available For New Projects
@@ -53,9 +53,9 @@ export default function Home() {
                 </div>
               </BoxReveal>
 
-              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold pb-1 pt-0 text-center text-gray-900 dark:text-white leading-snug">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl [@media(max-height:750px)]:md:text-2xl font-bold pb-2 pt-0 text-center text-gray-900 dark:text-white leading-snug transition-all duration-300">
                 <GradualSpacing
-                  className="font-display text-center text-lg font-extrabold tracking-tight text-gray-900 dark:text-white md:text-2xl lg:text-3xl leading-tight"
+                  className="font-display text-center text-xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-2xl lg:text-3xl [@media(max-height:750px)]:md:text-xl leading-tight transition-all duration-300"
                   text="Building High-Performance"
                 />
               </h2>
@@ -71,18 +71,18 @@ export default function Home() {
                   typeSpeed={70}
                   backSpeed={50}
                   loop
-                  className="text-base md:text-xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-1 md:mb-4 block text-center min-h-[30px] md:min-h-[40px] px-2"
+                  className="text-lg md:text-xl lg:text-2xl [@media(max-height:750px)]:md:text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-4 md:mb-4 [@media(max-height:750px)]:md:mb-2 block text-center min-h-[36px] md:min-h-[40px] [@media(max-height:750px)]:md:min-h-[30px] px-2 transition-all duration-300"
                 />
               </BoxReveal>
 
               <BoxReveal boxColor={"#0b1327"} duration={0.6}>
-                <div className="mt-1 md:mt-4 flex flex-wrap justify-center gap-4 md:gap-12 w-full max-w-[700px] mx-auto z-30 relative">
+                <div className="mt-4 md:mt-4 [@media(max-height:750px)]:md:mt-2 flex flex-wrap justify-center gap-6 md:gap-12 w-full max-w-[700px] mx-auto z-30 relative transition-all duration-300">
                   {stats.map((stat, index) => (
                     <div key={index} className="text-center group">
-                      <div className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-br from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 group-hover:scale-110 transition-transform duration-300">
+                      <div className="text-2xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-br from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 group-hover:scale-110 transition-transform duration-300">
                         {stat.value}
                       </div>
-                        <div className="text-[9px] md:text-[11px] font-semibold text-gray-500 flex items-center gap-1 justify-center mt-0.5 uppercase tracking-wider">
+                        <div className="text-[10px] md:text-[11px] font-semibold text-gray-500 flex items-center gap-1 justify-center mt-1 uppercase tracking-wider">
                         {stat.label}
                       </div>
                     </div>
@@ -91,13 +91,13 @@ export default function Home() {
               </BoxReveal>
 
               <BoxReveal boxColor={"#0b1327"} duration={0.7}>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-4 md:mt-10 border-t border-gray-200 dark:border-gray-800/60 pt-4 md:pt-6 z-30 relative w-full max-w-[700px] mx-auto px-6">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8 md:mt-10 [@media(max-height:750px)]:md:mt-4 border-t border-gray-200 dark:border-gray-800/60 pt-6 md:pt-6 [@media(max-height:750px)]:md:pt-4 z-30 relative w-full max-w-[700px] mx-auto px-6 transition-all duration-300">
                   <a
                     href="https://drive.google.com/uc?export=download&id=1EdZbZ0Z1E0EFrV8kmPqWjWZVajNffdmX"
                     download
                     className="w-full sm:w-44"
                   >
-                    <button className="w-full px-4 py-2.5 md:py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow-sm hover:shadow-md transition-all duration-300 text-xs md:text-sm flex items-center justify-center gap-2">
+                    <button className="w-full px-4 py-3 md:py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 font-bold rounded-full shadow-sm hover:shadow-md transition-all duration-300 text-[13px] md:text-sm flex items-center justify-center gap-2">
                       <span>Download CV</span>
                       <svg
                         width="16"
@@ -116,7 +116,7 @@ export default function Home() {
                     </button>
                   </a>
                   <Link href="/contact" className="w-full sm:w-44">
-                    <button className="w-full px-4 py-2.5 md:py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-xs md:text-sm text-center">
+                    <button className="w-full px-4 py-3 md:py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-[13px] md:text-sm text-center">
                       Hire Me
                     </button>
                   </Link>
@@ -124,7 +124,7 @@ export default function Home() {
               </BoxReveal>
 
               <BoxReveal boxColor={"#0b1327"} duration={0.8}>
-                <div className="icons mt-2 md:mt-6 text-gray-600 dark:text-gray-400 flex justify-center flex-wrap gap-2 z-30 relative">
+                <div className="icons mt-6 md:mt-6 [@media(max-height:750px)]:md:mt-3 text-gray-600 dark:text-gray-400 flex justify-center flex-wrap gap-4 md:gap-2 z-30 relative transition-all duration-300">
                   {socialBtnList.map((btn, idx) => {
                     const { link, hover, icon } = btn || {};
                     return (
